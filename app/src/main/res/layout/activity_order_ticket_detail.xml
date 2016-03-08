@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/ticket_bg_gray"
+    tools:context="com.daemon.activities.OrderTicketDetailActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_status_height"
+        android:background="@color/ticket_title_color"/>
+    <include
+        layout="@layout/layout_title_blue" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:background="@color/ticket_bg_gray"
+        android:scrollbars="none"
+        >
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical"
+       android:background="@color/ticket_bg_gray">
+    <!-- 订单状态-->
+    <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       android:layout_marginTop="15dp"
+       android:layout_marginLeft="15dp"
+       android:layout_marginRight="15dp"
+       android:background="@color/ticket_white"
+       android:padding="15dp"
+       >
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+
+           <TextView
+               android:id="@+id/tv_order_ticket_detail_status"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignParentLeft="true"
+               android:gravity="center_vertical"
+               android:text="已出票"
+               android:textSize="18sp"
+               android:textColor="@color/ticket_green"
+               />
+
+           <TextView
+               android:id="@+id/tv_order_ticket_detail_price"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignParentRight="true"
+               android:gravity="center_vertical"
+               android:text="2350"
+               android:textSize="16sp"
+               android:textColor="@color/ticket_title_color"
+               />
+       </RelativeLayout>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           android:layout_marginTop="5dp"
+           >
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:gravity="center_vertical"
+               android:text="订单编号："
+               android:textSize="16sp"
+               android:textColor="@color/ticket_font_gray"
+               />
+
+           <TextView
+               android:id="@+id/tv_order_ticket_detail_orderNo"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:gravity="center_vertical"
+               android:text="W20321320320032"
+               android:textSize="16sp"
+               android:textColor="@color/ticket_font_gray"
+               />
+       </LinearLayout>
+
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="15dp"
+           >
+
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_centerInParent="true"
+               android:orientation="horizontal"
+               >
+           <Button
+               android:id="@+id/btn_order_ticket_detail_endorse"
+               android:layout_width="100dp"
+               android:layout_height="30dp"
+               android:gravity="center"
+               android:background="@drawable/ticket_button_corner"
+               android:text="我要改签"
+               android:textSize="16sp"
+               android:visibility="gone"
+               android:textColor="@color/ticket_title_color"
+               />
+
+           <Button
+               android:id="@+id/btn_order_ticket_detail_return"
+               android:layout_width="100dp"
+               android:layout_height="30dp"
+               android:gravity="center"
+               android:background="@drawable/ticket_button_corner"
+               android:text="我要退票"
+               android:textSize="16sp"
+               android:visibility="gone"
+               android:textColor="@color/ticket_title_color"
+               android:layout_marginLeft="30dp"
+               />
+           </LinearLayout>
+       </RelativeLayout>
+   </LinearLayout>
+
+       <!-- 航班信息-->
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="15dp"
+           android:orientation="vertical"
+           android:background="@color/ticket_white"
+           >
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:padding="15dp"
+               android:text="航班信息"
+               android:textSize="17sp"
+               android:textColor="@color/ticket_black"
+               />
+
+           <View
+               android:layout_width="match_parent"
+               android:layout_height="1dp"
+               android:background="@color/ticket_bg_gray"
+               />
+
+           <!-- 航班详情-->
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="vertical"
+               android:padding="15dp"
+               >
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="horizontal"
+                   >
+              <TextView
+                  android:id="@+id/tv_order_ticket_detail_flight_date"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="2016年01月22日"
+                  android:textSize="13sp"
+                  android:textColor="@color/ticket_black"
+                  />
+
+                   <TextView
+                       android:id="@+id/tv_order_ticket_detail_flight_day"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_marginLeft="10dp"
+                       android:text="周五"
+                       android:textSize="13sp"
+                       android:textColor="@color/ticket_black"
+                       />
+
+
+                   <TextView
+                       android:id="@+id/tv_order_ticket_detail_flight_Scity"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_marginLeft="10dp"
+                       android:text="宁波"
+                       android:textSize="13sp"
+                       android:textColor="@color/ticket_black"
+                       />
+
+                   <View
+    android:layout_width="10dp"
+    android:layout_height="1dp"
+    android:background="@color/ticket_black"
+                       android:layout_marginLeft="3dp"
+                       android:layout_marginRight="3dp"
+                       android:layout_gravity="center"
+    />
+
+                   <TextView
+                       android:id="@+id/tv_order_ticket_detail_flight_Ecity"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="北京"
+                       android:textSize="13sp"
+                       android:textColor="@color/ticket_black"
+                       />
+
+                   <TextView
+                       android:id="@+id/tv_order_ticket_detail_flight_cabin"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_marginLeft="10dp"
+                       android:text="经济舱"
+                       android:textSize="13sp"
+                       android:textColor="@color/ticket_black"
+                       />
+               </LinearLayout>
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="150dp"
+                   android:orientation="horizontal"
+                   android:padding="15dp"
+                   >
+
+                   <LinearLayout
+                       android:layout_width="wrap_content"
+                       android:layout_height="match_parent"
+                       android:orientation="vertical"
+                       >
+                       <TextView
+                           android:id="@+id/tv_order_ticket_detail_flight_Stime"
+                           android:layout_width="wrap_content"
+                           android:layout_height="0dp"
+                           android:layout_weight="3"
+                           android:layout_gravity="center_horizontal"
+                           android:gravity="center_horizontal"
+                           android:text="11:20"
+                           android:textSize="20sp"
+                           android:textColor="#000000"
+                           />
+
+                       <TextView
+                           android:id="@+id/tv_order_ticket_detail_flight_interval"
+                           android:layout_width="wrap_content"
+                           android:layout_height="0dp"
+                           android:layout_weight="1"
+                           android:layout_gravity="center"
+                           android:gravity="center"
+                           android:text="约1h50mm"
+                           android:textSize="14sp"
+                           android:textColor="@color/ticket_font_gray"
+                           />
+
+                       <TextView
+                           android:id="@+id/tv_order_ticket_detail_flight_Etime"
+                           android:layout_width="wrap_content"
+                           android:layout_height="0dp"
+                           android:layout_weight="3"
+                           android:layout_gravity="center_horizontal"
+                           android:gravity="center_horizontal|bottom"
+                           android:text="13:10"
+                           android:textSize="20sp"
+                           android:textColor="#000000"
+                           />
+                   </LinearLayout>
+
+                   <ImageView
+                       android:layout_width="wrap_content"
+                       android:layout_height="match_parent"
+                       android:layout_margin="10dp"
+                       android:src="@drawable/jpdd_dq"
+                       />
+
+                   <LinearLayout
+                       android:layout_width="wrap_content"
+                       android:layout_height="match_parent"
+                       android:orientation="vertical"
+                       >
+                       <!-- 起飞机场-->
+                       <TextView
+                           android:id="@+id/tv_order_ticket_detail_flight_Sport"
+                           android:layout_width="wrap_content"
+                           android:layout_height="0dp"
+                           android:layout_weight="1"
+                           android:text="栎社机场"
+                           android:textSize="18sp"
+                           android:textColor="#000000"
+                           />
+                       <!-- 降落机场-->
+                       <TextView
+                           android:id="@+id/tv_order_ticket_detail_flight_Eport"
+                           android:layout_width="wrap_content"
+                           android:layout_height="0dp"
+                           android:layout_weight="1"
+                           android:gravity="bottom"
+                           android:text="首都机场"
+                           android:textSize="18sp"
+                           android:textColor="#000000"
+                           />
+                   </LinearLayout>
+                   <!-- 占个空位置-->
+<LinearLayout
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:layout_weight="2"
+    >
+</LinearLayout>
+
+                   <ImageView
+                       android:layout_width="30dp"
+                       android:layout_height="wrap_content"
+
+                       />
+                   <!-- 航空公司信息-->
+                   <RelativeLayout
+                       android:layout_width="0dp"
+                       android:layout_height="match_parent"
+                       android:layout_weight="2"
+                       >
+                   <TextView
+                       android:id="@+id/tv_order_ticket_detail_flight_airLine"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="南方航空"
+                       android:textColor="@color/ticket_font_gray"
+                       android:textSize="13sp"
+                       />
+
+                       <TextView
+                           android:id="@+id/tv_order_ticket_detail_flight_flightNo"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:layout_below="@id/tv_order_ticket_detail_flight_airLine"
+                           android:layout_marginTop="5dp"
+                           android:text="JQ967"
+                           android:textColor="@color/ticket_font_gray"
+                           android:textSize="13sp"
+                           />
+
+                   </RelativeLayout>
+
+               </LinearLayout>
+           </LinearLayout>
+       </LinearLayout>
+
+    <!-- 乘机人信息-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/ticket_white"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingBottom="15dp"
+
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="15dp"
+            android:text="乘机人信息"
+            android:textSize="16sp"
+            android:textColor="@color/ticket_black"
+            />
+
+        <com.yunchengke.app.ui.view.daemon.ListViewForScrollView
+            android:id="@+id/lv_order_ticket_detail_passengerInfo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2.5"
+            android:divider="@null"
+            android:scrollbars="none"
+            />
+    </LinearLayout>
+
+
+    <!-- 报销凭证-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/ticket_white"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal"
+        android:padding="15dp"
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="报销凭证"
+            android:textSize="16sp"
+            android:textColor="@color/ticket_black"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2.5"
+            android:text="无"
+            android:textSize="16sp"
+            android:textColor="@color/ticket_black"
+            />
+    </LinearLayout>
+   </LinearLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout_order_ticket_detail_pay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/ticket_white"
+        android:visibility="gone"
+        >
+        <!-- 立即支付 -->
+        <Button
+            android:id="@+id/btn_order_ticket_detail_pay_now"
+            android:layout_width="330dp"
+            android:layout_height="45dp"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/ticket_btn_selector"
+            android:text="立即支付"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/button_textSize" />
+    </RelativeLayout>
+</LinearLayout>

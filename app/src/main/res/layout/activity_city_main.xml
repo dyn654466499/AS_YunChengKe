@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.yunchengke.app.ui.activity.city.CityMainActivity">
+
+
+
+
+    <com.yunchengke.app.ui.widget.SegmentedGroup
+        android:orientation="horizontal"
+        android:id="@+id/sgp_city_top"
+        android:gravity="center"
+        app:sc_unchecked_tint_color="@color/city_background"
+        android:background="@color/city_background"
+        android:layout_width="match_parent"
+        android:layout_height="45dp">
+
+        <RadioButton
+            android:id="@+id/hots"
+            style="@style/SegmentRadioButton"
+            android:background="@drawable/radio_checked"
+            android:checked="true"
+            android:textColor="@drawable/city_segment_button_text_color"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/segment_button_height"
+            android:text="热门" />
+
+        <RadioButton
+            android:id="@+id/city_all"
+            style="@style/SegmentRadioButton"
+            android:textColor="@drawable/city_segment_button_text_color"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/segment_button_height"
+            android:text="全部" />
+
+        <RadioButton
+            android:id="@+id/city_myself"
+            style="@style/SegmentRadioButton"
+            android:textColor="@drawable/city_segment_button_text_color"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/segment_button_height"
+            android:text="我的" />
+
+    </com.yunchengke.app.ui.widget.SegmentedGroup>
+
+
+    <View
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/split_line_height"
+        android:layout_below="@id/lyt_base_title"
+        android:background="@color/title_split_color"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,1 @@
+include ':app', ':photo_select',':pulltorefresh', ':sharesdk', ':sharesdk', ':onekeyshare', ':slidingmenu', ':upyun'

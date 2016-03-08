@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/message_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:background="#66C5F0"
+    android:padding="4dip" >
+
+    <!--
+    <TextView
+        android:id="@+id/tv_session_expression"
+        style="@style/all_wrap_content"
+        android:layout_centerVertical="true"
+        android:background="@drawable/ico_expression_selector" />
+
+    <TextView
+        android:id="@+id/tv_drop_down"
+        style="@style/all_wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="4dip"
+        android:layout_toRightOf="@id/tv_session_expression"
+        android:background="@drawable/icon_drop_down_selector" />
+    -->
+
+    <TextView
+        android:id="@+id/tv_send"
+        style="@style/all_wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/session_send_selector"
+        android:paddingLeft="4dip"
+        android:text="回复"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_toolarge" />
+
+    <EditText
+        android:id="@+id/tv_et"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="4dip"
+        android:layout_toLeftOf="@id/tv_send"
+        android:background="@drawable/white_left_corners"
+        android:hint="说点什么呢...(140字以内)"
+        android:maxLength="140"
+        android:paddingLeft="5dp"
+        android:singleLine="false"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_size_toolarge" />
+
+</RelativeLayout>

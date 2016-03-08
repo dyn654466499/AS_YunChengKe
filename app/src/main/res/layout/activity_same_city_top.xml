@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:background="@color/city_background"
+    android:orientation="vertical">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:visibility="gone"
+android:id="@+id/ed_cityactive_keyword"
+        android:background="@color/white"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="60dp"
+        android:layout_marginLeft="20dp"
+        android:hint="请输入活动关键字"
+
+        />
+
+
+    <com.yunchengke.app.ui.widget.SegmentedGroup
+        android:orientation="horizontal"
+        android:id="@+id/sgp_city_top"
+        android:gravity="center"
+
+        app:sc_unchecked_tint_color="@color/city_background"
+        android:background="@color/city_background"
+        android:layout_width="match_parent"
+        android:layout_height="45dp">
+
+        <RadioButton
+            android:id="@+id/hots"
+            style="@style/SegmentRadioButton"
+            android:background="@drawable/radio_checked"
+            android:textColor="@drawable/city_segment_button_text_color"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/segment_button_height"
+            android:text="热门" />
+
+        <RadioButton
+            android:id="@+id/city_all"
+            style="@style/SegmentRadioButton"
+            android:textColor="@drawable/city_segment_button_text_color"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/segment_button_height"
+            android:checked="true"
+            android:text="全部" />
+
+        <RadioButton
+            android:id="@+id/city_myself"
+            style="@style/SegmentRadioButton"
+            android:textColor="@drawable/city_segment_button_text_color"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/segment_button_height"
+            android:text="我的" />
+
+    </com.yunchengke.app.ui.widget.SegmentedGroup>
+    <!-- 左边 -->
+    <TextView
+        android:id="@+id/tv_base_title_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/title_menu_padding"
+        android:paddingRight="@dimen/title_menu_padding"
+        android:text="返回"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:ellipsize="end"
+        android:gravity="center_vertical|start"
+        android:singleLine="true"
+        android:visibility="gone"
+        android:layout_centerVertical="true"
+        android:textColor="@color/title_left_text_color"
+        android:textSize="@dimen/title_menu_textsize" />
+
+    <!-- 右边 -->
+
+    <TextView
+        android:id="@+id/tv_base_title_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:paddingLeft="@dimen/title_menu_padding"
+        android:paddingRight="@dimen/title_menu_padding"
+        android:ellipsize="end"
+        android:text="搜索"
+        android:gravity="center_vertical|end"
+        android:singleLine="true"
+        android:layout_centerVertical="true"
+        android:textColor="@color/title_right_text_color"
+        android:textSize="@dimen/title_menu_textsize" />
+
+
+    <TextView
+        android:id="@+id/tv_base_title_cancel_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:paddingLeft="@dimen/title_menu_padding"
+        android:paddingRight="@dimen/title_menu_padding"
+        android:ellipsize="end"
+        android:text="取消"
+        android:visibility="gone"
+        android:gravity="center_vertical|end"
+        android:singleLine="true"
+        android:layout_centerVertical="true"
+        android:textColor="@color/title_right_text_color"
+        android:textSize="@dimen/title_menu_textsize" />
+
+
+</RelativeLayout>

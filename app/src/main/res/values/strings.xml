@@ -1,0 +1,483 @@
+<resources>
+    <string name="app_name">云城客</string>
+    <string name="action_settings">Settings</string>
+
+
+    <!-- 小组 -->
+
+    <string name="create_group">创建小组</string>
+
+    <string name="search">搜索</string>
+
+    <string name="topic_detail_comment_count">评论（%s）</string>
+
+    <string name="topic_comment_count">%s回应</string>
+
+    <string name="topic_from_creator">来自：%s</string>
+
+    <string name="group_from_creator">创建者：%s</string>
+
+    <string name="group_list_member_count">%s名成员</string>
+
+    <string name="group_member_count">成员：%s</string>
+
+    <string name="group_look_members">查看成员</string>
+
+    <string name="select_category">选择分类</string>
+    <string name="category_detail">分类详情</string>
+
+    <string name="group_detail">小组详情</string>
+
+    <string name="share">分享</string>
+    <string name="back">返回</string>
+
+    <string name="topic_detail_title">话题详情</string>
+
+    <string name="create_topic">发布话题</string>
+    <string name="send_topic">发送</string>
+    <string name="topic_title_hint">话题标题</string>
+    <string name="topic_content_hint">话题内容</string>
+
+
+    <!--登录/注册-->
+    <string name="login_username_hint">请输入手机号</string>
+    <string name="login_password_hint">请输入密码</string>
+    <string name="login_show_password">显示</string>
+    <string name="login_forget_password">忘记密码？</string>
+    <string name="login_login">登 录</string>
+    <string name="login_register">注 册</string>
+    <string name="empty_validator">此处不能为空！</string>
+    <string name="get_code">获取验证码</string>
+    <string name="register_username_hint">11位手机号</string>
+    <string name="code_hint">短信验证码</string>
+    <string name="register_password_hint">6-16位字母和数字密码</string>
+    <string name="forget_title">找回密码</string>
+    <string name="forget_reset">重 置</string>
+    <string name="new_password">输入新密码</string>
+    <string name="login_success">登录成功！</string>
+    <string name="login_lose">登录失败！</string>
+    <!--第三方登录-->
+    <string name="userid_found">用户信息已存在，正在跳转登录操作…</string>
+    <string name="logining">使用%s帐号登录中…</string>
+    <string name="auth_cancel">授权操作已取消</string>
+    <string name="auth_error">授权操作遇到错误，请阅读Logcat输出</string>
+    <string name="auth_complete">授权成功，正在跳转登录操作…</string>
+    <string name="if_register_needed">如果您需要注册功能…</string>
+    <string name="after_auth">一般来说第三方登录时，第三方平台已经为您完成用户身份校验，您可以放心让用户登录。\n\n但如果您需要判断用户是否为新用户，可以在授权操作完成后，将用户的信息通过字段“HashMap userInfo”携带给login方法。客户端通过“String userId”执行登录请求，如果服务端判定此userId为未注册用户，可以将userInfo发送给注册接口，获取用户在此平台上的昵称、头像等数据，然后执行注册</string>
+
+    <!--首页-->
+    <string name="main_tab_text1">发现</string>
+    <string name="main_tab_text2">动态</string>
+    <string name="main_tab_text3">同城</string>
+    <string name="main_tab_text4">餐饮</string>
+    <string name="main_tab_text5">消息</string>
+    <string name="loading">正在加载...</string>
+    <string name="uploading">正在提交...</string>
+    <string name="create_group_button_text">立即创建</string>
+    <string name="group_type">小组类型</string>
+    <string name="group_category">小组分类</string>
+    <string name="group_name">小组名称</string>
+    <string name="group_member">小组成员</string>
+    <string name="group_introduction">小组简介</string>
+    <string name="topic">话题</string>
+    <string name="group">小组</string>
+    <string name="category">分类</string>
+    <string name="my_group">我的</string>
+
+    <!-- 头条 -->
+    <string name="headline">头条</string>
+    <string name="headline_title">头条</string>
+
+    <!-- 新闻详情 -->
+    <string name="item_news_comment_count">%s回应</string>
+
+    <string name="news">新闻</string>
+
+    <string name="news_detail">新闻详情</string>
+    <string name="media_member">成员</string>
+    <string name="join">加入</string>
+    <string name="follow">关注</string>
+    <string name="followed">已关注</string>
+    <string name="media_look_members">查看成员</string>
+
+    <string name="media_detail">媒体详情</string>
+
+    <string name="media_creator">创建者：%s</string>
+    <string name="media_member_count">成员：%s</string>
+    <string name="media_introduction">简介：%s</string>
+    <string name="media_past_news_title">新闻</string>
+    <string name="media_news_period_number">第%s期</string>
+
+    <string name="news_creator">创建者：%s</string>
+    <string name="news_introduction">简介：%s</string>
+    <string name="news_comment_count">评论（%s）</string>
+
+    <string name="past_news_creator">创建人：%s</string>
+
+    <!-- 动态 -->
+    <string name="dynamic_detail_title">动态</string>
+    <string name="dynamic_detail_publish">发布</string>
+    <string name="my_fans_title">我的粉丝</string>
+    <string name="my_follow_title">我的关注</string>
+    <string name="dynamic_detail_comment_count">评论（%s）</string>
+    <string name="item_dynamic_comment_count">评论 %s</string>
+    <string name="publish_dynamic_title">发布动态</string>
+    <string name="publish_dynamic_send">发送</string>
+
+    <!--机票-->
+    <!-- 常用 -->
+    <string name="button_back">返回</string>
+    <string name="button_search">开始搜索</string>
+    <string name="sure">确定</string>
+    <string name="cancel">取消</string>
+
+    <string name="string_back">返回</string>
+    <string name="string_search_hit">搜索中文/城市简拼</string>
+    <string name="string_hot_city">热门城市</string>
+
+    <!-- 标题 -->
+    <string name="title_flight_search">航班查询</string>
+    <string name="title_leaveDate">选择出发日期</string>
+    <string name="title_oneWay">单程</string>
+    <string name="title_endorseOrBackDesc">退改签说明</string>
+    <string name="title_goAndBack">往返</string>
+    <string name="title_select_cabin">选择舱位</string>
+    <string name="title_select_cert">选择证件</string>
+    <string name="title_select_ticket_distribute">选择配送方式</string>
+    <string name="title_date_leave">选择出发日期</string>
+    <string name="title_date_back">选择返回日期</string>
+    <string name="title_order_edit">订单填写</string>
+    <string name="title_order_detail">订单详情</string>
+    <string name="title_flight_result">%1$s - %2$s (%3$s) </string>
+    <string name="title_my_consume">我的消费</string>
+
+    <!-- 我的消费 -->
+    <string name="title_ticket">机票 </string>
+    <string name="title_shopping">购物 </string>
+    <string name="title_localCity">同城 </string>
+    <string name="title_hotel">酒店 </string>
+    <string name="title_catering">餐饮 </string>
+
+
+    <!--创建活动-->
+    <string name="title_create_activities">创建活动</string>
+    <!-- 舱位类型 -->
+    <string-array name="TypeCabin">
+        <item>所有舱位</item>
+        <item>全价舱</item>
+        <item>公务舱</item>
+        <item>头等舱</item>
+    </string-array>
+
+    <!-- 证件类型 -->
+    <string-array name="TypeCert">
+        <item>身份证</item>
+        <item>护照</item>
+        <item>台胞证</item>
+        <item>回乡证</item>
+        <item>军人证</item>
+        <item>港澳通行证</item>
+        <item>其他</item>
+    </string-array>
+
+    <!-- 机票配送方式 -->
+    <string-array name="TypeTicketDestribute">
+        <item>不需要报销凭证</item>
+        <item>快递</item>
+    </string-array>
+
+    <!-- 订单状态-->
+    <string-array name="OrderTicketStatus">
+        <item>等待确认</item>
+        <item>等待支付</item>
+        <item>支付成功</item>
+        <item>出票成功</item>
+        <item>申请废票</item>
+        <item>申请退票</item>
+        <item>退款中</item>
+        <item>取消订单</item>
+        <item>暂不能出票</item>
+        <item>暂不能废票</item>
+        <item>暂不能退票</item>
+        <item>航班延误</item>
+        <item>退款成功</item>
+    </string-array>
+
+    <!-- 支付状态状态-->
+    <string-array name="PayStatus">
+        <item>待付款</item>
+        <item>已付款待确认</item>
+        <item>已完成</item>
+        <item>已作废</item>
+    </string-array>
+
+
+    <!-- 空险类型 -->
+    <string-array name="TypeInsure">
+        <item>@string/order_insure_casualty</item>
+        <item>@string/order_insure_delay</item>
+        <item>@string/order_insure_combination</item>
+    </string-array>
+
+    <!-- 机票订单 -->
+    <string name="order_peopleAndPrice">共%1$s人，总计￥%2$s</string>
+    <string name="order_name">姓名</string>
+    <string name="order_passengers">乘机人姓名</string>
+    <string name="order_cert">身份证</string>
+    <string name="order_cert_num">证件号码</string>
+    <string name="order_commit">提交订单</string>
+    <string name="order_add_passengers">添加更多乘机人</string>
+    <string name="order_insure_casualty">航空意外险</string>
+    <string name="order_insure_delay">延误取消险</string>
+    <string name="order_insure_combination">航空组合险</string>
+
+
+    <!-- 城市列表 -->
+    <string name="hint_citylist_search">搜索中文/全拼</string>
+
+    <!-- 退改签说明 -->
+    <string name="title_endorse_refund">退票条件</string>
+    <string name="endorse_refund_desc" formatted="false">起飞前2小时之前的产品退订手续费按产品价收取50%，起飞前2小时（含）以内和起飞后不支持产品退订；</string>
+    <string name="title_endorse_change">更改条件</string>
+    <string name="endorse_change_desc" formatted="false">起飞前2小时之前的改期手续费按产品价收取30%，起飞前2小时（含）以内及起飞后的收取50%；改期费与升舱费同时发生，需同时收取。</string>
+    <string name="title_endorse">签转条件</string>
+    <string name="endorse_desc">不得签转</string>
+
+    <!-- 提示 -->
+    <string name="tips_exitOrder">您正在填写订单，是否要退出？</string>
+
+    <string name="url">null</string>
+
+
+    <!-- -->
+    <string name="catering_book_total">￥%1$s，共%2$s个菜</string>
+    <string-array name="CityTags">
+        <item>热门</item>
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>J</item>
+        <item>K</item>
+        <item>L</item>
+        <item>M</item>
+        <item>N</item>
+        <item>O</item>
+        <item>P</item>
+        <item>Q</item>
+        <item>R</item>
+        <item>S</item>
+        <item>T</item>
+        <item>U</item>
+        <item>V</item>
+        <item>W</item>
+        <item>X</item>
+        <item>Y</item>
+        <item>Z</item>
+    </string-array>
+
+    <!-- 热门城市 -->
+
+    <string-array name="hot_city">
+        <item>北京市</item>
+        <item>广州市</item>
+        <item>上海市</item>
+    </string-array>
+
+    <string-array name="CityNames">
+        <item>北京首都</item>
+        <item>上海虹桥</item>
+        <item>上海浦东</item>
+        <item>广州</item>
+        <item>深圳</item>
+        <item>香港</item>
+        <item>澳门</item>
+        <item>天津</item>
+        <item>成都</item>
+        <item>重庆</item>
+        <item>南京</item>
+        <item>青岛</item>
+        <item>珠海</item>
+        <item>福州</item>
+        <item>哈尔滨</item>
+        <item>大连</item>
+        <item>海口</item>
+        <item>沈阳</item>
+        <item>厦门</item>
+        <item>安庆</item>
+        <item>鞍山</item>
+        <item>阿克苏</item>
+        <item>阿勒泰</item>
+        <item>安康</item>
+        <item>北京首都</item>
+        <item>北京南苑</item>
+        <item>保山</item>
+        <item>包头</item>
+        <item>北海</item>
+        <item>蚌埠</item>
+        <item>重庆</item>
+        <item>成都</item>
+        <item>长沙</item>
+        <item>长春</item>
+        <item>常德</item>
+        <item>长治</item>
+        <item>常州</item>
+        <item>朝阳</item>
+        <item>赤峰</item>
+        <item>大连</item>
+        <item>敦煌</item>
+        <item>大理</item>
+        <item>达县</item>
+        <item>东营</item>
+        <item>丹东</item>
+        <item>大同</item>
+        <item>恩施</item>
+        <item>福州</item>
+        <item>阜阳</item>
+        <item>富蕴</item>
+        <item>广州</item>
+        <item>桂林</item>
+        <item>贵阳</item>
+        <item>格尔木</item>
+        <item>广汉</item>
+        <item>赣州</item>
+        <item>海口</item>
+        <item>哈尔滨</item>
+        <item>杭州</item>
+        <item>合肥</item>
+        <item>黄山</item>
+        <item>呼和浩特</item>
+        <item>海拉尔</item>
+        <item>哈密</item>
+        <item>汉中</item>
+        <item>黑河</item>
+        <item>衡阳</item>
+        <item>和田</item>
+        <item>黄岩</item>
+        <item>吉林</item>
+        <item>济南</item>
+        <item>九江</item>
+        <item>九寨黄龙</item>
+        <item>吉安</item>
+        <item>佳木斯</item>
+        <item>嘉峪关</item>
+        <item>济宁</item>
+        <item>景德镇</item>
+        <item>景洪</item>
+        <item>晋江</item>
+        <item>锦州</item>
+        <item>酒泉</item>
+        <item>昆明</item>
+        <item>克拉玛依</item>
+        <item>喀什</item>
+        <item>库尔勒</item>
+        <item>库车</item>
+        <item>洛阳</item>
+        <item>兰州</item>
+        <item>拉萨</item>
+        <item>连云港</item>
+        <item>丽江</item>
+        <item>临沂</item>
+        <item>柳州</item>
+        <item>泸州</item>
+        <item>芒市</item>
+        <item>梅县</item>
+        <item>绵阳</item>
+        <item>牡丹江</item>
+        <item>满洲里</item>
+        <item>南京</item>
+        <item>宁波</item>
+        <item>南昌</item>
+        <item>南宁</item>
+        <item>南通</item>
+        <item>南充</item>
+        <item>南阳</item>
+        <item>青岛</item>
+        <item>秦皇岛</item>
+        <item>齐齐哈尔</item>
+        <item>泉州</item>
+        <item>衢州</item>
+        <item>且末</item>
+        <item>庆阳</item>
+        <item>沈阳</item>
+        <item>深圳</item>
+        <item>上海虹桥</item>
+        <item>上海浦东</item>
+        <item>汕头</item>
+        <item>石家庄</item>
+        <item>苏州</item>
+        <item>三亚</item>
+        <item>沙市</item>
+        <item>思茅</item>
+        <item>天津</item>
+        <item>塔城</item>
+        <item>太原</item>
+        <item>通化</item>
+        <item>通辽</item>
+        <item>铜仁</item>
+        <item>温州</item>
+        <item>武汉</item>
+        <item>武汉王家</item>
+        <item>无锡</item>
+        <item>乌鲁木齐</item>
+        <item>威海</item>
+        <item>梧州</item>
+        <item>万县</item>
+        <item>潍坊</item>
+        <item>乌兰浩特</item>
+        <item>武夷山</item>
+        <item>厦门</item>
+        <item>徐州</item>
+        <item>西安</item>
+        <item>西宁</item>
+        <item>西昌</item>
+        <item>襄樊</item>
+        <item>锡林浩特</item>
+        <item>银川</item>
+        <item>延安</item>
+        <item>延吉</item>
+        <item>烟台</item>
+        <item>盐城</item>
+        <item>宜宾</item>
+        <item>宜昌</item>
+        <item>伊宁</item>
+        <item>义乌</item>
+        <item>永州</item>
+        <item>榆林</item>
+        <item>珠海</item>
+        <item>昭通</item>
+        <item>张家界</item>
+        <item>湛江</item>
+        <item>芷江</item>
+        <item>中甸</item>
+        <item>舟山</item>
+        <item>遵义</item>
+        <item>郑州</item>
+    </string-array>
+    <string name="title_activity_catering">CateringActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_catering_detail">CateringDetailActivity</string>
+    <string name="label">动态</string>
+    <string name="title_activity_catering_dishes">CateringDishesActivity</string>
+    <string name="title_activity_catering_book">CateringBookActivity</string>
+    <string name="title_activity_catering_comment">CateringCommentActivity</string>
+    <string name="title_activity_comment">CommentActivity</string>
+    <string name="title_activity_catering_merchant_info">CateringMerchantInfoActivity</string>
+    <string name="title_activity_catering_book_result">CateringBookResultActivity</string>
+    <string name="title_activity_map">MapActivity</string>
+    <string name="title_activity_catering_book_dishes_list">CateringBookDishesListActivity</string>
+    <!--同城-->
+    <string name="activity_type">类型：%1$s</string>
+    <string name="activity_case">费用：%1$s</string>
+    <string name="activity_join_num">%1$d人参与</string>
+    <string name="activity_focus_num">%1$d人关注</string>
+    <string name="activity_address">地址：%1$s</string>
+    <string name="activity_phonenum">电话：%1$s</string>
+</resources>

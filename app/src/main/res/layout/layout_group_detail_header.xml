@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+    <!-- 小组背景图 -->
+
+    <ImageView
+        android:id="@+id/iv_group_detail_background"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/white"
+        android:contentDescription="@null"
+        android:scaleType="fitXY"/>
+
+    <!-- 小组介绍文案 -->
+
+    <LinearLayout
+        android:id="@+id/lyt_group_detail_content"
+        android:layout_width="match_parent"
+        android:layout_height="103dp"
+        android:layout_below="@id/iv_group_detail_background"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp">
+
+        <TextView
+            android:id="@+id/tv_group_detail_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:textColor="@color/common_black_color"
+            android:textSize="18dp"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp">
+
+            <TextView
+                android:id="@+id/tv_group_detail_creator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:textColor="@color/common_gray_color"
+                android:textSize="14dp"/>
+
+            <TextView
+                android:id="@+id/tv_group_detail_member_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@id/tv_group_detail_creator"
+                android:textColor="@color/common_gray_color"
+                android:textSize="14dp"/>
+
+            <TextView
+                android:id="@+id/tv_group_detail_member_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="@string/group_look_members"
+                android:textColor="#8ac7a5"
+                android:textSize="14dp"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_group_detail_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:textColor="@color/common_gray_color"
+            android:textSize="14dp"/>
+
+    </LinearLayout>
+
+    <!-- 小组LOGO -->
+    <ImageView
+        android:id="@+id/iv_group_detail_logo"
+        android:layout_width="58dp"
+        android:layout_height="58dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="171dp"
+        android:background="@color/white"
+        android:contentDescription="@null"
+        android:padding="1dp"
+        android:scaleType="fitXY"/>
+
+    <!-- 加入 -->
+
+    <Button
+        android:id="@+id/btn_group_detail_join"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lyt_group_detail_content"
+        android:layout_marginBottom="14dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/btn_join_group"
+        android:text="@string/join"
+        android:textColor="@drawable/slt_group_text_color"
+        android:textSize="@dimen/group_button_text_size"/>
+
+</RelativeLayout>

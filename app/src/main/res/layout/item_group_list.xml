@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:background="@drawable/bg_common_item"
+        android:layout_width="match_parent"
+        android:layout_height="89dp">
+
+    <ImageView
+        android:id="@+id/iv_item_group_image"
+        android:layout_centerVertical="true"
+        android:scaleType="fitXY"
+        android:layout_width="58dp"
+        android:layout_height="58dp"/>
+
+    <RelativeLayout
+        android:layout_toRightOf="@id/iv_item_group_image"
+        android:layout_marginLeft="14dp"
+        android:layout_centerVertical="true"
+        android:gravity="center_vertical|left"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:text="标题"
+            android:id="@+id/tv_item_group_title"
+            android:textSize="15dp"
+            android:singleLine="true"
+            android:textColor="@color/common_black_color"
+            android:layout_alignParentTop="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="内容"
+            android:layout_below="@id/tv_item_group_title"
+            android:id="@+id/tv_item_group_content"
+            android:layout_marginTop="4dp"
+            android:textSize="13dp"
+            android:singleLine="true"
+            android:textColor="@color/common_gray_color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="人数"
+            android:textSize="13dp"
+            android:layout_marginTop="2dp"
+            android:layout_below="@id/tv_item_group_content"
+            android:textColor="@color/common_gray_color"
+            android:id="@+id/tv_item_group_people"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

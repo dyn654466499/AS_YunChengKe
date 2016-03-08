@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/lyt_base_title"
+        layout="@layout/title_base"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"/>
+
+    <com.yunchengke.app.ui.view.WindowInsetsFrameLayout
+        android:id="@+id/lyt_base_content"
+        android:fitsSystemWindows="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/lyt_base_title">
+    </com.yunchengke.app.ui.view.WindowInsetsFrameLayout>
+
+    <View
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/split_line_height"
+        android:layout_below="@id/lyt_base_title"
+        android:background="@color/title_split_color"/>
+
+</RelativeLayout>

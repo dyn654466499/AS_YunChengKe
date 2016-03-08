@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:descendantFocusability="blocksDescendants"
+              android:background="@color/white"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+    <include
+        layout="@layout/common_split_line"/>
+
+    <RelativeLayout
+        android:id="@+id/dynamic_comment"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:paddingLeft="@dimen/activity_margin_left"
+        android:paddingRight="@dimen/activity_margin_right">
+
+        <com.yunchengke.app.ui.view.daemon.CircleImageView
+            android:id="@+id/dynamic_portrait"
+            android:layout_centerVertical="true"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:padding="5dp"
+            app:border_color="@color/transparent"
+            app:border_width="1dp"
+            android:src="@drawable/image_default_100" />
+
+        <TextView
+            android:id="@+id/tv_item_dynamic_comment"
+            android:layout_width="60dp"
+            android:layout_height="27dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/bg_dynamic_comment_count"
+            android:gravity="center"
+            android:text="评论"
+            android:textSize="12dp"
+            android:textColor="#999999"
+            android:clickable="true"/>
+
+        <LinearLayout
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:layout_toRightOf="@id/dynamic_portrait"
+            android:layout_toLeftOf="@id/tv_item_dynamic_comment"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/dynamic_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="岁月无情"
+                android:textSize="15dp"
+                android:textColor="@color/common_black_color" />
+
+            <TextView
+                android:id="@+id/dynamic_date"
+                android:layout_marginTop="7dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="一个月前"
+                android:textSize="10dp"
+                android:textColor="@color/common_gray_color" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/activity_margin_left"
+        android:paddingRight="@dimen/activity_margin_right">
+
+        <com.yunchengke.app.ui.view.CollapsibleTextView
+            android:id="@+id/dynamic_images_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:layout_marginBottom="10dp"
+            android:text="我们"
+            android:textSize="14dp"
+            android:textColor="@color/common_black_color" />
+
+        <include
+            layout="@layout/common_split_line"/>
+
+        <com.yunchengke.app.ui.view.NoScrollGridView
+            android:id="@+id/dynamic_images_list"
+            android:clickable="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchMode="none"
+            android:listSelector="@color/transparent"
+            android:numColumns="auto_fit"
+            android:columnWidth="74dp"
+            android:horizontalSpacing="8dp"
+            android:verticalSpacing="8dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp" />
+
+    </LinearLayout>
+
+    <include
+        layout="@layout/common_split_line"/>
+
+</LinearLayout>

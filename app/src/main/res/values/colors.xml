@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 通用颜色 -->
+    <color name="common_split_line_color">#e0e0e0</color>
+
+    <!-- 标题栏 -->
+    <color name="title_bk">#ffffff</color>
+    <color name="title_split_color">#ccd9d9d9</color>
+
+    <color name="title_text_color">#ffffff</color>
+    <color name="title_left_text_color">#ffffff</color>
+    <color name="title_right_text_color">#ffffff</color>
+
+    <!-- 小组模块 -->
+    <color name="group_background">#8AC7A5</color>
+
+    <!-- 头条模块 -->
+    <color name="headline_background">#ef3b33</color>
+    <color name="comment_list_divider_color">#e0e0e0</color>
+
+    <!--同城模块-->
+    <color name="city_background">#08a65c</color>
+    <!-- segment radio button -->
+    <color name="segment_button_selected_color">#ffffff</color>
+    <color name="segment_button_unselected_color">#8ac7a5</color>
+
+    <color name="segment_button_selected_text_color">#8ac7a5</color>
+    <color name="segment_button_unselected_text_color">@color/white</color>
+
+    <color name="headline_segment_button_selected_text_color">@color/headline_background</color>
+    <color name="headline_segment_button_unselected_text_color">@color/white</color>
+
+    <!-- 新闻列表背景颜色 -->
+    <color name="newslist_background">#f0f0f0</color>
+    <!--登录/注册-->
+    <color name="login_background">#007aff</color>
+    <color name="login_hint">#999999</color>
+    <color name="login_edit">#fffefe</color>
+    <color name="login_register">#3394ff</color>
+    <!--首页-->
+    <color name="top_bar_bg">#cccccc</color>
+    <!-- tab背景颜色 -->
+    <color name="title2_text_normal">#5B5B5B</color>
+    <!-- 顶栏背景2文字选中背景 -->
+    <color name="title2_text_selected">#0092ed</color>
+
+    <!-- 顶栏背景2文字正常背景 -->
+    <color name="menu_style">#6e6e6e</color>
+    <color name="show_menu">#0096f4</color>
+    <!-- 菜单颜色 -->
+    <color name="bg">#FFFFFF</color>
+    <color name="title_btn_selected">#006391</color>
+    <color name="resource_textcolor">#1954ba</color>
+    <color name="resource_textcolor_nomal">#a0a0a0</color>
+    <color name="title1_bg">#0082AF</color>
+    <!-- 顶栏背景 -->
+    <color name="exit_cancle_normal">#878787</color>
+    <color name="exit_cancle_selected">#5B5B5B</color>
+    <color name="exit_ok_normal">#F97600</color>
+    <color name="exit_ok_selected">#E55C00</color>
+    <!-- 透明 -->
+    <color name="bound_qgrid">#111111</color>
+    <color name="group_fill">#FFF4F4F4</color>
+    <color name="bound_gray">#FFB1B1B1</color>
+    <color name="type_gray">#333333</color>
+    <color name="type_grayc">#666666</color>
+    <color name="type_line">#444444</color>
+    <color name="hint_scolor">#B1F2E8</color>
+    <color name="my_act">#ecf7fc</color>
+
+    <color name="lineblue">#dfdfdf</color>
+    <color name="grayg">#e0e0e0</color>
+    <color name="grayc">#999999</color>
+    <color name="vertify">#009ceb</color>
+    <color name="listitembg">#81B8E7</color>
+    <!-- 主色调 -->
+    <!--
+     <color name="title_main_bg">#0DCBA5</color>
+
+    <color name="main_bg_light">#20DABD</color>
+    -->
+
+    <color name="title_main_bg">#e7e6e7</color>
+    <color name="title_main_text">#38b6b0</color>
+    <color name="main_bg_light">#5DAACB</color>
+    <color name="edit_text">#FFD392</color>
+    <color name="common_radio_nomal">#ffa500</color>
+    <color name="add_circle">#bcbec0</color>
+    <color name="tab_1">#ff5534</color>
+    <color name="tab_2">#2cbae7</color>
+    <color name="tab_3">#ebeced</color>
+    <color name="tab_4">#dfdfde</color>
+    <color name="tab_5">#c3c3c2</color>
+    <color name="tab_6">#848482</color>
+    <color name="tab_7">#616466</color>
+    <color name="tab_8">#191615</color>
+    <color name="bacgroud_rectangle">#01abff</color>
+    <color name="comment_name">#007cc3</color>
+    <color name="skin">#a6ce38</color>
+    <color name="main_menu_text_corlo">#A3A3A3</color>
+    <color name="tab_invitation">#2ad062</color>
+    <color name="tab_task">#00b9ff</color>
+    <color name="tab_commodity">#fa6222</color>
+    <color name="tab_collection">#d6e951</color>
+    <color name="tab_coach">#b870b8</color>
+    <color name="tab_coach_index">#9fa0a4</color>
+    <color name="login_empty">#d1d3d4</color>
+    <color name="login_fill">#ff5534</color>
+    <color name="btn_orgern">#eea135</color>
+    <color name="btn_red">#e26233</color>
+    <color name="sportlevel">#E1583E</color>
+
+    <color name="runcolor">#e5a533</color>
+    <color name="bickcolor">#df5d3e</color>
+
+
+    <color name="province_line_border">#C7C7C7</color>
+
+
+    <!-- 其他颜色 -->
+    <color name="bg_transparent">#00000000</color>
+    <color name="main_bg">#f0f0f0</color>
+    <color name="main_top">#7a94a5</color>
+    <color name="tab_select">#01abff</color>
+    <color name="tab_default">#999999</color>
+
+    <color name="top_select">#95B4C9</color>
+    <color name="top_default">#ffffff</color>
+    <!-- glw -->
+    <color name="synormal">#D7D6D6</color>
+    <color name="sycolor">#D91C3C</color>
+    <color name="sysuccesscolor">#448C35</color>
+    <color name="side_right_login_tv_outpad">#448C35</color>
+    <color name="no_shiyong">#FFAB25</color>
+    <color name="transparent_background">#80000000</color>
+    <color name="product_rate">#ff6208</color>
+    <color name="product_name">#4c4c4c</color>
+    <color name="guestrue_bg">#293a4e</color>
+    <color name="guestrue_tv">#ff8d31</color>
+
+    <color name="backgroundColor">#E8E8E0</color>
+    <color name="backgroundColorPress">#DBDBD3</color>
+
+    <color name="homeColor">#01ABFF</color>
+    <color name="homeRing">#D2EFFD</color>
+    <!-- 灰色线 -->
+    <color name="line_grey">#D7D6D6</color>
+    <!-- 个人动态背景 -->
+    <color name="person_msg_bg">#9b5e41</color>
+    <!-- Group 按钮颜色 -->
+    <color name="btn_group_normal_color">#8ac7a5</color>
+    <color name="btn_group_pressed_color">#478c65</color>
+    <color name="btn_group_disabled_color">#ffffff</color>
+
+    <color name="btn_headline_normal_color">#ef3b33</color>
+    <color name="btn_headline_pressed_color">#c6261f</color>
+    <color name="btn_headline_disabled_color">#ffffff</color>
+
+    <!-- 列表通用文字颜色 -->
+    <color name="list_title_color">#333333</color>
+    <color name="list_gray_color">#999999</color>
+
+    <color name="topic_list_divider_color">#e0e0e0</color>
+
+    <color name="common_black_color">#333333</color>
+    <color name="common_gray_color">#999999</color>
+
+    <color name="app_window_background">#fff0f0f0</color>
+
+
+    <!-- GridView分割线 -->
+    <color name="grid_view_split_line_color">#f0f0f0</color>
+
+    <drawable name="bg_category_item_normal">@color/white</drawable>
+    <drawable name="bg_category_item_pressed">@color/grid_view_split_line_color</drawable>
+
+    <!-- 创建小组，选择类型 -->
+    <color name="group_type_checked_color">#ffffff</color>
+    <color name="group_type_unchecked_color">#8ac7a5</color>
+
+    <!--机票-->
+    <color name="ticket_title_color">#0080ff</color>
+    <color name="ticket_bg_gray">#f0f0f0</color>
+    <drawable name="ticket_bg_gray">@color/ticket_bg_gray</drawable>
+    <color name="ticket_font_gray">#999999</color>
+    <color name="ticket_font_deep_gray">#545454</color>
+    <color name="ticket_white">#ffffff</color>
+    <color name="ticket_black">#333333</color>
+    <color name="activitytransparent">#a000</color>
+    <color name="ticket_button_click">#00a8ff</color>
+    <color name="ticket_green">#08a65c</color>
+
+    <color name="calendar_color_green">#60c677</color>
+    <color name="calendar_color_orange">#fc6c00</color>
+    <color name="calendar_color_black">#666666</color>
+    <color name="calendar_color_gray">#cccccc</color>
+    <color name="calendar_color_month_title">#526276</color>
+    <color name="calendar_color_white">#ffffff</color>
+
+    <!-- 餐饮 -->
+    <color name="catering_title_color">#ff6800</color>
+    <color name="catering_bg_button_gray">#b3b3b3</color>
+
+
+    <color name="catering_bg_gray">#f0f0f0</color>
+
+    <!-- 动态 -->
+    <color name="dynamic_title_background">#ef3b33</color>
+    <color name="user_info_title_background">#9b5e41</color>
+    <color name="btn_user_info_normal_color">#ef3b33</color>
+    <color name="btn_user_info_pressed_color">#c6261f</color>
+
+
+<!--同城-->
+    <color name="create_activites_title">#08a65c</color>
+    <drawable name="pressed_bg">#f2f2f2</drawable>
+    <drawable name="nopressed_bg">#fff</drawable>
+</resources>

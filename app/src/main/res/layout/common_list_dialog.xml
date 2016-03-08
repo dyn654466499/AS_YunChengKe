@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:minWidth="@dimen/exit_min_width"
+    android:orientation="vertical"
+    tools:ignore="HardcodedText" >
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="4dp"
+        android:contentDescription="@string/app_name"
+        android:scaleType="matrix"
+        android:src="@color/main_bg_light" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:minHeight="50dp"
+        android:paddingLeft="20dp"
+        android:text=""
+        android:textColor="@color/main_bg_light"
+        android:textSize="@dimen/text_size_large" />
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:contentDescription="@string/app_name"
+        android:scaleType="matrix"
+        android:src="@color/main_bg_light" />
+
+    <ListView
+        android:id="@+id/lv_msg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:minHeight="100dp"
+        android:divider="#cccccc"
+        android:dividerHeight="1dp"
+        android:textColor="@color/black" />
+
+</LinearLayout>

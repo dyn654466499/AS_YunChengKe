@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 字号设置 -->
+    <dimen name="text_size_coach_list">20sp</dimen>
+    <dimen name="text_size_micro">16sp</dimen>
+    <dimen name="text_size_small">14sp</dimen>
+    <dimen name="text_size_medium">14sp</dimen>
+    <dimen name="text_size_toolarge">16sp</dimen>
+    <dimen name="text_size_large">20sp</dimen>
+	<dimen name="text_size_signature">16sp</dimen>
+    <dimen name="txt_14_size">14dp</dimen> 
+    <dimen name="text_size_username">25dp</dimen> 
+    <dimen name="text_size_level">17dp</dimen> 
+</resources>

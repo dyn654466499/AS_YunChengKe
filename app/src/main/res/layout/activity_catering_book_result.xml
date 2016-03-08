@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/ticket_bg_gray"
+    tools:context="com.daemon.activities.OrderTicketDetailActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_status_height"
+        android:background="@color/catering_title_color"/>
+    <include
+        layout="@layout/layout_title_orange" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:background="@color/ticket_bg_gray"
+        android:scrollbars="none"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@color/ticket_white"
+                android:showDividers="middle"
+                android:divider="@drawable/line"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingTop="15dp"
+                    android:paddingBottom="15dp"
+                    >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="姓名"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical|right"
+                        android:textColor="@color/ticket_black"
+                        android:textSize="16sp"
+
+                        />
+
+                    <com.yunchengke.app.ui.view.daemon.CustomEditText
+                        android:id="@+id/et_catering_book_result_personName"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:layout_marginLeft="30dp"
+                        android:textSize="16sp"
+                        android:background="@null"
+                        android:singleLine="false"
+                        android:hint="请输入姓名"
+                        android:drawableRight="@drawable/submit_edit_clear_normal"
+                        android:paddingRight="10dp"
+                        android:layout_marginRight="20dp"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingTop="15dp"
+                    android:paddingBottom="15dp"
+                    >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="手机"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical|right"
+                        android:textColor="@color/ticket_black"
+                        android:textSize="16sp"
+
+                        />
+
+                    <com.yunchengke.app.ui.view.daemon.CustomEditText
+                        android:id="@+id/et_catering_book_result_phone"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:layout_marginLeft="30dp"
+                        android:textSize="16sp"
+                        android:background="@null"
+                        android:hint="请输入11位手机号"
+                        android:drawableRight="@drawable/submit_edit_clear_normal"
+                        android:drawablePadding="10dp"
+                        android:inputType="phone"
+                        android:maxLength="11"
+                        android:paddingRight="10dp"
+                        android:layout_marginRight="20dp"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout_catering_book_result_personCount"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingTop="15dp"
+                    android:paddingBottom="15dp"
+                    android:visibility="gone"
+                    >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="人数"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical|right"
+                        android:textColor="@color/ticket_black"
+                        android:textSize="16sp"
+
+                        />
+
+                    <com.yunchengke.app.ui.view.daemon.CustomEditText
+                        android:id="@+id/et_catering_book_result_personCount"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:layout_marginLeft="30dp"
+                        android:textSize="16sp"
+                        android:background="@null"
+                        android:hint="请输入人数"
+                        android:drawableRight="@drawable/submit_edit_clear_normal"
+                        android:paddingRight="10dp"
+                        android:inputType="number"
+                        android:layout_marginRight="20dp"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingTop="15dp"
+                    android:paddingBottom="15dp"
+                    >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="用餐时间"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical|right"
+                        android:textColor="@color/ticket_black"
+                        android:textSize="16sp"
+
+                        />
+
+                    <Button
+                        android:id="@+id/btn_catering_book_result_time"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:layout_marginLeft="30dp"
+                        android:gravity="center_vertical|left"
+                        android:textSize="16sp"
+                        android:background="@null"
+                        android:text="请选择用餐时间"
+                        android:textColor="@color/ticket_font_deep_gray"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout_catering_book_result_address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingTop="15dp"
+                    android:paddingBottom="15dp"
+                    android:visibility="gone"
+                    >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="送餐地址"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical|right"
+                        android:textColor="@color/ticket_black"
+                        android:textSize="16sp"
+
+                        />
+
+                    <com.yunchengke.app.ui.view.daemon.CustomEditText
+                        android:id="@+id/et_catering_book_result_address"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:layout_marginLeft="30dp"
+                        android:textSize="16sp"
+                        android:background="@null"
+                        android:hint="请输入用餐时间"
+                        android:drawableRight="@drawable/submit_edit_clear_normal"
+                        android:drawablePadding="10dp"
+                        android:paddingRight="10dp"
+                        android:layout_marginRight="20dp"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingTop="15dp"
+                    android:paddingBottom="15dp"
+                    >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="备注"
+                        android:gravity="right"
+                        android:textColor="@color/ticket_black"
+                        android:textSize="16sp"
+
+                        />
+
+                    <com.yunchengke.app.ui.view.daemon.CustomEditText
+                        android:id="@+id/et_catering_book_result_beizhu"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="3"
+                        android:layout_marginLeft="30dp"
+                        android:textSize="16sp"
+                        android:background="@null"
+                        android:hint="可选"
+                        android:gravity="start"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@null"
+                android:layout_marginTop="15dp"
+                android:showDividers="middle"
+                android:divider="@drawable/line"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="15dp"
+                    android:background="@color/ticket_white"
+                    >
+                    <EditText
+                        android:id="@+id/et_catering_book_result_storeName"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:textSize="16sp"
+                        android:background="@null"
+                        android:focusable="false"
+                        android:singleLine="true"
+                        android:text=""
+                        />
+                </LinearLayout>
+
+                <com.yunchengke.app.ui.view.daemon.ListViewForScrollView
+                    android:id="@+id/lv_catering_book_result_dishes_detail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:divider="@drawable/line"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="15dp"
+                    android:background="@color/ticket_white"
+                    >
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:textSize="16sp"
+                        android:background="@null"
+                        android:singleLine="true"
+                        android:text="总计"
+                        />
+
+                    <TextView
+                        android:id="@+id/tv_catering_book_result_totalPrice"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:gravity="center_vertical|right"
+                        android:textSize="16sp"
+                        android:background="@null"
+                        android:singleLine="true"
+                        android:text="￥"
+                        android:textColor="@color/catering_title_color"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout_catering_book_result_pay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/ticket_white"
+        >
+        <!-- 在线支付 -->
+        <Button
+            android:id="@+id/btn_catering_book_result_pay"
+            android:layout_width="330dp"
+            android:layout_height="45dp"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="10dp"
+            android:background="@color/catering_title_color"
+            android:text="提交订单"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/button_textSize" />
+    </RelativeLayout>
+</LinearLayout>

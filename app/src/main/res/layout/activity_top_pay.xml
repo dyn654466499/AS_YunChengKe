@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.yunchengke.app.ui.activity.daemon.CateringDishesActivity">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="12dp"
+                android:text="选择时间"
+                android:textColor="@color/common_black_color"
+                android:textSize="16dp" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="#f0f0f0" />
+
+            <RadioGroup
+                android:id="@+id/time_rg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="8dp">
+
+                <RadioButton
+                    android:id="@+id/time_rb1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_select_topay"
+                    android:button="@null"
+                    android:checked="true"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:text="New RadioButton"
+                    android:textColor="@color/common_black_color"
+                    android:textSize="16dp" />
+
+                <RadioButton
+                    android:id="@+id/time_rb2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_select_topay"
+                    android:button="@null"
+                    android:checked="false"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:text="New RadioButton"
+                    android:textColor="@color/common_black_color"
+                    android:textSize="16dp" />
+
+                <RadioButton
+                    android:id="@+id/time_rb3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_select_topay"
+                    android:button="@null"
+                    android:checked="false"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:text="New RadioButton"
+                    android:textColor="@color/common_black_color"
+                    android:textSize="16dp" />
+            </RadioGroup>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="#f0f0f0" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="16dp"
+                android:background="#f0f0f0" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="#f0f0f0" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="12dp"
+                android:text="选择价格"
+                android:textColor="@color/common_black_color"
+                android:textSize="16dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="#f0f0f0" />
+
+            <RadioGroup
+                android:id="@+id/price_rg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="8dp">
+
+                <RadioButton
+                    android:id="@+id/price_rb1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_select_topay"
+                    android:button="@null"
+                    android:checked="true"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:text="New RadioButton"
+                    android:textColor="@color/common_black_color"
+                    android:textSize="16dp" />
+
+                <RadioButton
+                    android:id="@+id/price_rb2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_select_topay"
+                    android:button="@null"
+                    android:checked="false"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:text="New RadioButton"
+                    android:textColor="@color/common_black_color"
+                    android:textSize="16dp" />
+
+                <RadioButton
+                    android:id="@+id/price_rb3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_select_topay"
+                    android:button="@null"
+                    android:checked="false"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:text="New RadioButton"
+                    android:textColor="@color/common_black_color"
+                    android:textSize="16dp" />
+            </RadioGroup>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="#f0f0f0" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="16dp"
+                android:background="#f0f0f0" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="#f0f0f0" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="12dp"
+                android:text="数量"
+                android:textColor="@color/common_black_color"
+                android:textSize="16dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="#f0f0f0" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/minus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="-" />
+
+                <TextView
+                    android:id="@+id/num"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1" />
+
+                <Button
+                    android:id="@+id/add"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="+" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+    <Button
+        android:id="@+id/btn_city_pay"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/ticket_btn_selector"
+        android:text="在线支付"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/button_textSize" />
+
+</LinearLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:background="@color/white"
+      android:orientation="vertical" android:paddingBottom="14dp"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+    
+    <ImageView
+        android:id="@+id/iv_item_media_list_image"
+        android:contentDescription="@null"
+        android:scaleType="fitXY"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"/>
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="12dp"
+        android:paddingLeft="@dimen/activity_margin_left"
+        android:paddingRight="@dimen/activity_margin_right"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_item_media_list_logo"
+            android:layout_alignParentLeft="true"
+            android:contentDescription="@null"
+            android:scaleType="fitXY"
+            android:layout_marginRight="13dp"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"/>
+
+        <TextView
+            android:id="@+id/iv_item_media_list_name"
+            android:layout_toRightOf="@id/iv_item_media_list_logo"
+            android:textSize="15dp"
+            android:textColor="@color/common_black_color"
+            android:singleLine="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/iv_item_media_list_introduction"
+        android:singleLine="true"
+        android:layout_marginTop="7dp"
+        android:paddingLeft="@dimen/activity_margin_left"
+        android:paddingRight="@dimen/activity_margin_right"
+        android:textSize="12dp"
+        android:textColor="@color/common_gray_color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/iv_item_media_list_count"
+        android:layout_marginTop="5dp"
+        android:singleLine="true"
+        android:paddingLeft="@dimen/activity_margin_left"
+        android:paddingRight="@dimen/activity_margin_right"
+        android:textSize="12dp"
+        android:textColor="@color/common_gray_color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
