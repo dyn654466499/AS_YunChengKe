@@ -1,0 +1,242 @@
+[
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\anim\\anim_search_view_show.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\anim\\anim_search_view_show.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\anim\\snackbar_in.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\22.2.0\\res\\anim\\snackbar_in.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\anim\\push_top_in.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\anim\\push_top_in.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\anim\\anim_search_view_hide.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\anim\\anim_search_view_hide.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\anim\\push_left_out.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\anim\\push_left_out.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\anim\\activity_down.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\anim\\activity_down.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\anim\\shake.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\anim\\shake.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\anim\\popup_enter.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\anim\\popup_enter.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\anim\\push_bottom_in.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\anim\\push_bottom_in.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\anim\\down.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\anim\\down.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\anim\\popup_exit.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\anim\\popup_exit.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\anim\\slide_in_from_bottom.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\anim\\slide_in_from_bottom.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\anim\\push_top_out.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\anim\\push_top_out.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\anim\\splash_close_exit.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\anim\\splash_close_exit.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\anim\\slide_in.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\exploded-aar\\yunchengke\\photo_select\\unspecified\\res\\anim\\slide_in.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\anim\\push_bottom_out.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\anim\\push_bottom_out.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\anim\\push_right_out.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\anim\\push_right_out.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\anim\\time_popup_exit.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\anim\\time_popup_exit.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\anim\\splash_open_exit.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\anim\\splash_open_exit.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\anim\\pull_arrow_down.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\exploded-aar\\yunchengke\\pulltorefresh\\unspecified\\res\\anim\\pull_arrow_down.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\anim\\slide_in_from_top.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\anim\\slide_in_from_top.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\anim\\popup_out.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\anim\\popup_out.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\anim\\slide_out.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\exploded-aar\\yunchengke\\photo_select\\unspecified\\res\\anim\\slide_out.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\anim\\slide_out_to_bottom.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\anim\\slide_out_to_bottom.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\anim\\text_animation.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\anim\\text_animation.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\anim\\popup_alpha_in.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\anim\\popup_alpha_in.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\anim\\rotate.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\anim\\rotate.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\anim\\slide_out_left.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\anim\\slide_out_left.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\anim\\upward.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\anim\\upward.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\anim\\popup_alpha_out.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\anim\\popup_alpha_out.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\anim\\popup_in.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\anim\\popup_in.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\anim\\splash_close_enter.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\anim\\splash_close_enter.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\anim\\slide_in_right.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\anim\\slide_in_right.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fab_out.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\22.2.0\\res\\anim\\fab_out.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\anim\\rotate_action.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\anim\\rotate_action.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\anim\\snackbar_out.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\22.2.0\\res\\anim\\snackbar_out.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\anim\\splash_open_enter.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\anim\\splash_open_enter.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\anim\\anim_uploading_dialog.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\anim\\anim_uploading_dialog.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fab_in.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\22.2.0\\res\\anim\\fab_in.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\anim\\time_popup_enter.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\anim\\time_popup_enter.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\anim\\pull_arrow_up.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\exploded-aar\\yunchengke\\pulltorefresh\\unspecified\\res\\anim\\pull_arrow_up.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\anim\\main_header_selector.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\anim\\main_header_selector.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\anim\\slide_in_from_right.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\anim\\slide_in_from_right.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\anim\\slide_out_to_top.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\anim\\slide_out_to_top.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\anim\\main_open_enter.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\anim\\main_open_enter.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\anim\\push_right_in.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\anim\\push_right_in.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\anim\\slide_out_to_right.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\anim\\slide_out_to_right.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\anim\\update_loading_progressbar_anim.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\exploded-aar\\yunchengke\\pulltorefresh\\unspecified\\res\\anim\\update_loading_progressbar_anim.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\anim\\activity_up.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\anim\\activity_up.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\anim\\push_left_in.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\anim\\push_left_in.xml"
+    }
+]

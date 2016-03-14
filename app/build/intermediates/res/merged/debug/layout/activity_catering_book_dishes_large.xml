@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activity.daemon.CateringBookDishesLargeActivity">
+
+    <FrameLayout
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:background="@color/ticket_white"
+        android:layout_centerInParent="true"
+        >
+
+            <com.yunchengke.app.ui.view.daemon.HorizontalListView
+                android:id="@+id/lv_catering_book_dishes_large_list"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal"
+                />
+
+
+        <ImageView
+            android:id="@+id/imageView_catering_book_dishes_left_arrow"
+            android:layout_width="25dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="12.5dp"
+            android:alpha="0.6"
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="40dp"
+            android:src="@drawable/left_arrow"
+            android:visibility="gone"
+            />
+
+        <ImageView
+            android:id="@+id/imageView_catering_book_dishes_right_arrow"
+            android:layout_width="25dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="12.5dp"
+            android:alpha="0.6"
+            android:layout_gravity="center_vertical|end"
+            android:layout_marginBottom="40dp"
+            android:src="@drawable/right_arrow"
+            android:visibility="gone"
+            />
+    </FrameLayout>
+</RelativeLayout>

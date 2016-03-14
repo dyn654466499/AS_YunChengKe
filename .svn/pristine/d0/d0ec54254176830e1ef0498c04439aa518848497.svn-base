@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.activity.daemon.CateringSearchActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_status_height"
+        android:background="@color/catering_title_color"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/catering_title_color"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        >
+
+        <include
+            android:id="@+id/btn_title_back"
+            layout="@layout/layout_btn_back" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout_catering_title"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_centerInParent="true"
+            android:orientation="horizontal"
+            android:background="@drawable/catering_title_corner"
+            android:padding="1dp"
+            >
+
+            <Button
+                android:id="@+id/btn_catering_search_diningRoom"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="餐厅"
+                android:background="@null"
+                android:textSize="16sp"
+                android:textColor="@color/ticket_white"
+                />
+
+            <Button
+                android:id="@+id/btn_catering_search_activity"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@null"
+                android:text="活动"
+                android:textSize="16sp"
+                android:textColor="@color/ticket_white"
+                />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_catering_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@null"
+            android:text="搜索"
+            android:textSize="@dimen/button_textSize"
+            android:textColor="#ffffff" >
+        </Button>
+
+        <!-- 搜索 -->
+        <com.yunchengke.app.ui.view.daemon.CustomEditText
+            android:id="@+id/et_catering_search"
+            android:hint="点击右下方输入法键盘的搜索即可查询"
+            android:gravity="center_vertical"
+            android:imeOptions="actionSearch"
+            android:layout_centerVertical="true"
+            android:isScrollContainer="false"
+            android:visibility="invisible"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:typeface="normal"
+            android:textSize="13dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:paddingTop="2dp"
+            android:paddingBottom="2dp"
+            android:layout_marginLeft="@dimen/title_menu_padding"
+            android:background="@drawable/bg_search_edit_box"
+            android:drawableRight="@drawable/submit_edit_clear_normal"
+            android:drawablePadding="5dp"
+            android:layout_toLeftOf="@id/btn_catering_search"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout_fragment_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/ticket_bg_gray"
+        >
+
+    </RelativeLayout>
+
+</LinearLayout>

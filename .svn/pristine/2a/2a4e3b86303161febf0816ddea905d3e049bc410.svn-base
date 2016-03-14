@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:background="@color/white">
+
+            <TextView
+                android:id="@+id/tv_create_activities_type"
+                android:layout_width="90dp"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:gravity="center_vertical|right"
+                android:paddingRight="1dp"
+                android:text="类型"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/tv_create_activities_type_eidt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_toRightOf="@+id/tv_create_activities_type"
+                android:background="@color/white"
+                android:hint="请选择"
+                android:gravity="center_vertical"
+                android:imeOptions="actionNext"
+                android:singleLine="true"
+                android:textSize="16dp" />
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:background="@drawable/line" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:background="@color/white">
+
+            <TextView
+                android:id="@+id/tv_create_activities_name"
+                android:layout_width="90dp"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:gravity="center_vertical|right"
+                android:text="活动名称"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/tv_create_activities_name_eidt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_toRightOf="@+id/tv_create_activities_name"
+                android:background="@color/white"
+                android:hint="请输入活动名称"
+                android:imeOptions="actionNext"
+                android:singleLine="true"
+                android:textSize="16dp" />
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:background="@drawable/line" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white">
+
+            <TextView
+                android:id="@+id/tv_create_activities_image"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:gravity="center_vertical|right"
+                android:text="活动头图"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:id="@+id/tv_create_activities_image_show"
+                android:layout_width="84dp"
+                android:layout_height="84dp"
+                android:layout_centerVertical="true"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@+id/tv_create_activities_image"
+                android:background="@color/white"
+                android:scaleType="centerCrop" />
+
+            <TextView
+                android:id="@+id/add_image2"
+                android:layout_width="84dp"
+                android:layout_height="84dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="29dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@+id/tv_create_activities_image"
+                android:background="@drawable/bg_add_dynamic_image"
+                android:gravity="center"
+                android:text="添加\n图片"
+                android:textColor="#999999"
+                android:textSize="13dp" />
+
+
+            <ImageView
+                android:id="@+id/tv_create_activities_pick_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="15dp"
+                android:background="@color/white"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_xiangyou" />
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:background="@drawable/line" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_create_activities_image_list"
+                android:layout_width="90dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical|right"
+                android:text="图片列表"
+                android:textSize="15sp" />
+
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="24dp"
+                android:layout_toRightOf="@+id/tv_create_activities_image_list"
+                android:fillViewport="true">
+
+
+                <LinearLayout
+                    android:id="@+id/images"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/add_image"
+                        android:layout_width="84dp"
+                        android:layout_height="84dp"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/bg_add_dynamic_image"
+                        android:gravity="center"
+                        android:text="添加\n图片"
+                        android:textColor="#999999"
+                        android:textSize="13dp" />
+                </LinearLayout>
+            </HorizontalScrollView>
+
+
+            <ImageView
+                android:id="@+id/tv_create_activities_pick_images"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="15dp"
+                android:background="@color/white"
+                android:src="@drawable/ic_xiangyou" />
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:background="@drawable/line" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:background="@color/white">
+
+            <TextView
+                android:id="@+id/tv_create_activities_area"
+                android:layout_width="90dp"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:gravity="center_vertical|right"
+                android:text="地区"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/tv_create_activities_area_eidt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_toRightOf="@+id/tv_create_activities_area"
+                android:background="@color/white"
+                android:hint="请输入地区"
+                android:gravity="center_vertical"
+                android:imeOptions="actionNext"
+                android:singleLine="true"
+                android:textSize="16dp" />
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:background="@drawable/line" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:background="@color/white">
+
+            <TextView
+                android:id="@+id/tv_create_activities_address"
+                android:layout_width="90dp"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:gravity="center_vertical|right"
+                android:text="活动地点"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/tv_create_activities_address_eidt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_toRightOf="@+id/tv_create_activities_address"
+                android:background="@color/white"
+                android:hint="必填"
+                android:singleLine="true"
+                android:imeOptions="actionNext"
+                android:textSize="16dp" />
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:background="@drawable/line" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:background="@color/white">
+
+            <TextView
+                android:id="@+id/tv_create_activities_phone"
+                android:layout_width="90dp"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:gravity="center_vertical|right"
+                android:text="活动电话"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/tv_create_activities_phone_eidt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_toRightOf="@+id/tv_create_activities_phone"
+                android:background="@color/white"
+                android:hint="必填"
+                android:singleLine="true"
+                android:imeOptions="actionNext"
+                android:numeric="integer"
+                android:textSize="16dp" />
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:background="@drawable/line" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="122px"
+            android:background="@color/white">
+
+            <TextView
+                android:id="@+id/tv_create_activities_cost"
+                android:layout_width="90dp"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:gravity="center_vertical|right"
+                android:text="活动费用"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/tv_create_activities_cost_eidt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_toRightOf="@+id/tv_create_activities_cost"
+                android:background="@color/white"
+                android:hint="必填(0元代表免费)"
+                android:singleLine="true"
+                android:numeric="decimal"
+                android:imeOptions="actionNext"
+                android:textSize="16dp" />
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:background="@drawable/line" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:background="@color/white">
+
+            <TextView
+                android:id="@+id/tv_create_activities_numbermax"
+                android:layout_width="90dp"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:gravity="center_vertical|right"
+                android:text="人数限制"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/tv_create_activities_numbermax_eidt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_toRightOf="@+id/tv_create_activities_numbermax"
+                android:background="@color/white"
+                android:hint="请填写本次活动人数限制"
+                android:textSize="16dp"
+                android:imeOptions="actionNext"
+                android:numeric="integer" />
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:background="@drawable/line" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:background="@color/white">
+
+            <TextView
+                android:id="@+id/tv_create_activities_start_time"
+                android:layout_width="90dp"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:gravity="center_vertical|right"
+                android:text="开始时间"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/tv_create_activities_start_time_eidt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_toRightOf="@+id/tv_create_activities_start_time"
+                android:gravity="center_vertical"
+                android:hint="必填"
+                android:singleLine="true"
+                android:textSize="16dp" />
+
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:background="@drawable/line" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:background="@color/white">
+
+            <TextView
+                android:id="@+id/tv_create_activities_end_time"
+                android:layout_width="90dp"
+                android:textSize="15sp"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:gravity="center_vertical|right"
+                android:text="结束时间" />
+
+            <TextView
+                android:id="@+id/tv_create_activities_end_time_eidt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_toRightOf="@+id/tv_create_activities_end_time"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:hint="必填"
+                android:textSize="16dp" />
+
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:background="@drawable/line" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:background="@color/white">
+
+            <TextView
+                android:id="@+id/tv_create_activities_sign_start_time"
+                android:layout_width="90dp"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:gravity="center_vertical|right"
+                android:text="报名开始"
+                android:textSize="15sp"  />
+
+            <TextView
+                android:id="@+id/tv_create_activities_sign_start_time_edit"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_toRightOf="@+id/tv_create_activities_sign_start_time"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:hint="必填"
+                android:textSize="16dp" />
+
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:background="@drawable/line" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:background="@color/white">
+
+            <TextView
+                android:id="@+id/tv_create_activities_sign_end_time"
+                android:layout_width="90dp"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:gravity="center_vertical|right"
+                android:text="报名结束"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/tv_create_activities_sign_end_time_edit"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:singleLine="true"
+                android:layout_toRightOf="@+id/tv_create_activities_sign_end_time"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:hint="必填"
+                android:textSize="16dp" />
+
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:background="@drawable/line" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="137dp"
+            android:background="@color/white">
+
+            <TextView
+                android:id="@+id/tv_create_activities_introduce"
+                android:layout_width="90dp"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:gravity="center_vertical|right"
+                android:text="活动介绍"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/tv_create_activities_introduce_eidt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_toRightOf="@+id/tv_create_activities_introduce"
+                android:background="@color/white"
+                android:gravity="top"
+                android:hint="必填"
+                android:imeOptions="actionDone"
+                android:paddingBottom="8dp"
+                android:paddingTop="8dp"
+                android:textSize="16dp" />
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:background="@drawable/line" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@color/white">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/city_detail_shape1"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/btn_create_activities"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="立即创建"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

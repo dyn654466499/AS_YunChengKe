@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\pulltorefresh\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\pull_to_load_footer.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\pulltorefresh\\build\\intermediates\\bundles\\debug\\res\\layout\\pull_to_load_footer.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\pulltorefresh\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\pull_to_refresh_header.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\pulltorefresh\\build\\intermediates\\bundles\\debug\\res\\layout\\pull_to_refresh_header.xml"
+    }
+]

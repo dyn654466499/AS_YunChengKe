@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/lyt_news_detail_create_comment"
+        android:background="@color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+
+        android:orientation="vertical"
+        android:minHeight="49dp"
+        android:layout_height="wrap_content">
+
+        <include
+            layout="@layout/common_split_line"/>
+
+        <RelativeLayout
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:text="评论"
+                android:id="@+id/btn_news_detail_comment"
+                android:textColor="@color/white"
+                android:layout_marginLeft="10dp"
+                android:textSize="15dp"
+                android:background="@drawable/btn_news_comment"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_width="55dp"
+                android:layout_height="29dp"/>
+
+            <EditText
+                android:id="@+id/edt_news_detail_comment"
+                android:layout_toLeftOf="@id/btn_news_detail_comment"
+                android:hint="发表评论..."
+                android:textSize="14dp"
+                android:textColor="#333333"
+                android:textColorHint="#e0e0e0"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:singleLine="false"
+                android:gravity="left|center_vertical"
+                android:layout_centerVertical="true"
+                android:background="@drawable/bg_comment_editor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <com.lee.pullrefresh.PullToRefreshListView
+        android:id="@+id/plv_news_detail_comment"
+        android:layout_above="@id/lyt_news_detail_create_comment"
+        android:overScrollMode="never"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</RelativeLayout>

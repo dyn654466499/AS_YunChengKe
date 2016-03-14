@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\pulltorefresh\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\pulltorefresh_arrow.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\pulltorefresh\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\pulltorefresh_arrow.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\pulltorefresh\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\pulltorefresh_loading.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\pulltorefresh\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\pulltorefresh_loading.png"
+    }
+]

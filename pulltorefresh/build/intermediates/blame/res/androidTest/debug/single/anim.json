@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\pulltorefresh\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\update_loading_progressbar_anim.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\pulltorefresh\\build\\intermediates\\bundles\\debug\\res\\anim\\update_loading_progressbar_anim.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\pulltorefresh\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\pull_arrow_up.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\pulltorefresh\\build\\intermediates\\bundles\\debug\\res\\anim\\pull_arrow_up.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\pulltorefresh\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\pull_arrow_down.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\pulltorefresh\\build\\intermediates\\bundles\\debug\\res\\anim\\pull_arrow_down.xml"
+    }
+]

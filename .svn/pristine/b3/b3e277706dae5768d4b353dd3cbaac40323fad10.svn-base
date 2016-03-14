@@ -1,0 +1,275 @@
+package com.yunchengke.app.utils.daemon;
+
+import android.content.Context;
+import android.content.SharedPreferences;
+
+import com.baidu.mapapi.model.LatLng;
+import com.yunchengke.app.R;
+
+import java.io.InputStream;
+
+import jxl.Cell;
+import jxl.Sheet;
+import jxl.Workbook;
+
+import static com.yunchengke.app.consts.Constants.CURRENT_ADDRESS;
+import static com.yunchengke.app.consts.Constants.CURRENT_CITY;
+import static com.yunchengke.app.consts.Constants.CURRENT_LATITUDE;
+import static com.yunchengke.app.consts.Constants.CURRENT_LOCATION;
+import static com.yunchengke.app.consts.Constants.CURRENT_LONGITUDE;
+import static com.yunchengke.app.consts.Constants.KEY_SP_AIR_LINE;
+import static com.yunchengke.app.consts.Constants.KEY_SP_AIR_PORT;
+import static com.yunchengke.app.consts.Constants.KEY_SP_CABIN;
+import static com.yunchengke.app.consts.Constants.KEY_SP_CITY;
+import static com.yunchengke.app.consts.Constants.KEY_SP_ORDER_STATUS;
+import static com.yunchengke.app.consts.Constants.KEY_SP_PAY_STATUS;
+import static com.yunchengke.app.consts.Constants.KEY_SP_THREE_WORD;
+/**
+ * 针对需求实现的SharePreferences
+ * Created by 邓耀宁 on 2016/1/19.
+ */
+public class SPUtil {
+    /**
+     * 城市名和三字码键值对，城市名为key，用于航班搜索请求
+     * @param context
+     * @return
+     */
+    public static SharedPreferences getThreeWord(Context context){
+        SharedPreferences sp_three_word = context.getSharedPreferences(KEY_SP_THREE_WORD, Context.MODE_PRIVATE);
+        if(!sp_three_word.getBoolean("hasEdited",false)){
+            SharedPreferences.Editor editor_three_word = sp_three_word.edit();
+            InputStream is=null;
+            try {
+                is=context.getResources().openRawResource(R.raw.three_word);
+                Workbook wb= Workbook.getWorkbook(is);
+                Sheet sheet=wb.getSheet(0);
+                int row=sheet.getRows();
+                for(int i=0;i<row;++i) {
+                    Cell cellCity = sheet.getCell(0, i);
+                    Cell cellWord = sheet.getCell(1, i);
+                    editor_three_word.putString(cellCity.getContents().trim(), cellWord.getContents().trim());
+                }
+            } catch (Exception e) {
+                // TODO Auto-generated catch block
+                e.printStackTrace();
+                return sp_three_word;
+            }
+            editor_three_word.putBoolean("hasEdited", true);
+            editor_three_word.commit();
+        }
+        return sp_three_word;
+    }
+
+    /**
+     * 城市名和三字码键值对，三字码为key，获取城市名
+     * @param context
+     * @return
+     */
+    public static SharedPreferences getCity(Context context){
+        SharedPreferences sp_city = context.getSharedPreferences(KEY_SP_CITY, Context.MODE_PRIVATE);
+        if(!sp_city.getBoolean("hasEdited",false)){
+            SharedPreferences.Editor editor_city = sp_city.edit();
+            InputStream is=null;
+            try {
+                is=context.getResources().openRawResource(R.raw.three_word);
+                Workbook wb= Workbook.getWorkbook(is);
+                Sheet sheet=wb.getSheet(0);
+                int row=sheet.getRows();
+                for(int i=0;i<row;++i) {
+                    Cell cellCity = sheet.getCell(0, i);
+                    Cell cellWord = sheet.getCell(1, i);
+                    editor_city.putString(cellWord.getContents().trim(), cellCity.getContents().trim());
+                }
+            } catch (Exception e) {
+                // TODO Auto-generated catch block
+                e.printStackTrace();
+                return sp_city;
+            }
+            editor_city.putBoolean("hasEdited", true);
+            editor_city.commit();
+        }
+        return sp_city;
+    }
+
+    /**
+     * 机场名和三字码键值对，三字码为key，用于显示三字码相应的机场名
+     * @param context
+     * @return
+     */
+    public static SharedPreferences getAirPort(Context context){
+        SharedPreferences sp_air_port = context.getSharedPreferences(KEY_SP_AIR_PORT, Context.MODE_PRIVATE);
+        if(!sp_air_port.getBoolean("hasEdited",false)){
+            SharedPreferences.Editor editor_air_port = sp_air_port.edit();
+            InputStream is=null;
+            try {
+                is=context.getResources().openRawResource(R.raw.three_word);
+                Workbook wb= Workbook.getWorkbook(is);
+                Sheet sheet=wb.getSheet(0);
+                int row=sheet.getRows();
+                for(int i=0;i<row;++i) {
+                    Cell cellWord = sheet.getCell(1, i);
+                    Cell cellAirPort = sheet.getCell(2, i);
+                    editor_air_port.putString(cellWord.getContents().trim(), cellAirPort.getContents().trim());
+                }
+            } catch (Exception e) {
+                // TODO Auto-generated catch block
+                e.printStackTrace();
+                return sp_air_port;
+            }
+            editor_air_port.putBoolean("hasEdited", true);
+            editor_air_port.commit();
+        }
+        return sp_air_port;
+    }
+
+    /**
+     * 航空公司和其缩写键值对存储,缩写为key，用于显示相应的航空公司名
+     * @param context
+     * @return
+     */
+    public static SharedPreferences getAirLine(Context context) {
+        SharedPreferences sp_air_line = context.getSharedPreferences(KEY_SP_AIR_LINE, Context.MODE_PRIVATE);
+        if (!sp_air_line.getBoolean("hasEdited", false)) {
+            SharedPreferences.Editor editor_air_line = sp_air_line.edit();
+            InputStream is = null;
+            try {
+                is = context.getResources().openRawResource(R.raw.air_line);
+                Workbook wb = Workbook.getWorkbook(is);
+                Sheet sheet = wb.getSheet(0);
+                int row = sheet.getRows();
+                for (int i = 0; i < row; ++i) {
+                    Cell cellName = sheet.getCell(0, i);
+                    Cell cellWord = sheet.getCell(1, i);
+                    editor_air_line.putString(cellWord.getContents().trim(), cellName.getContents().trim());
+                }
+            } catch (Exception e) {
+                // TODO Auto-generated catch block
+                e.printStackTrace();
+                return sp_air_line;
+            }
+            editor_air_line.putBoolean("hasEdited", true);
+            editor_air_line.commit();
+        }
+        return sp_air_line;
+    }
+
+    /**
+     * 舱位类型和其缩写键值对存储
+     * @param context
+     * @return
+     */
+    public static SharedPreferences getCabin(Context context) {
+        SharedPreferences sp_cabin = context.getSharedPreferences(KEY_SP_CABIN, Context.MODE_PRIVATE);
+        if (!sp_cabin.getBoolean("hasEdited", false)) {
+            SharedPreferences.Editor editor_cabin = sp_cabin.edit();
+            String[] cabins = context.getResources().getStringArray(R.array.TypeCabin);
+            editor_cabin.putString("A", cabins[0]);
+            editor_cabin.putString(cabins[0], "A");
+
+            editor_cabin.putString("Y", cabins[1]);
+            editor_cabin.putString(cabins[1], "Y");
+
+            editor_cabin.putString("C", cabins[2]);
+            editor_cabin.putString(cabins[2], "C");
+
+            editor_cabin.putString("F", cabins[3]);
+            editor_cabin.putString(cabins[3], "F");
+
+            editor_cabin.putBoolean("hasEdited", true);
+            editor_cabin.commit();
+        }
+        return sp_cabin;
+    }
+
+    /**
+     *
+     * @param context
+     * @return
+     */
+    public static SharedPreferences getOrderStatus(Context context) {
+        SharedPreferences sp_orderStatus = context.getSharedPreferences(KEY_SP_ORDER_STATUS, Context.MODE_PRIVATE);
+        if (!sp_orderStatus.getBoolean("hasEdited", false)) {
+            SharedPreferences.Editor editor_orderStatus = sp_orderStatus.edit();
+            String[] orderStatus = context.getResources().getStringArray(R.array.OrderTicketStatus);
+            editor_orderStatus.putString("-1", orderStatus[0]);
+            editor_orderStatus.putString("0",orderStatus[1]);
+
+            editor_orderStatus.putString("1", orderStatus[2]);
+            editor_orderStatus.putString("2",orderStatus[3]);
+
+            editor_orderStatus.putString("3", orderStatus[4]);
+            editor_orderStatus.putString("4",orderStatus[5]);
+
+            editor_orderStatus.putString("5", orderStatus[6]);
+            editor_orderStatus.putString("6",orderStatus[7]);
+
+            editor_orderStatus.putString("7", orderStatus[8]);
+            editor_orderStatus.putString("8",orderStatus[9]);
+
+            editor_orderStatus.putString("9", orderStatus[10]);
+            editor_orderStatus.putString("10",orderStatus[11]);
+
+            editor_orderStatus.putString("14", orderStatus[12]);
+
+            editor_orderStatus.putBoolean("hasEdited", true);
+            editor_orderStatus.commit();
+        }
+        return sp_orderStatus;
+    }
+
+    /**
+     * 支付状态
+     * @param context
+     * @return
+     */
+    public static SharedPreferences getPayStatus(Context context) {
+        SharedPreferences sp_payStatus = context.getSharedPreferences(KEY_SP_PAY_STATUS, Context.MODE_PRIVATE);
+        if (!sp_payStatus.getBoolean("hasEdited", false)) {
+            SharedPreferences.Editor editor_payStatus = sp_payStatus.edit();
+            String[] orderStatus = context.getResources().getStringArray(R.array.PayStatus);
+            editor_payStatus.putString(",1,", orderStatus[0]);
+            editor_payStatus.putString(",2,", orderStatus[1]);
+
+            editor_payStatus.putString(",3,", orderStatus[2]);
+            editor_payStatus.putString(",4,", orderStatus[3]);
+
+            editor_payStatus.putBoolean("hasEdited", true);
+            editor_payStatus.commit();
+        }
+        return sp_payStatus;
+    }
+
+
+    public static void setCurrentCity(Context context,String cityName){
+        SharedPreferences preferences = context.getSharedPreferences(CURRENT_LOCATION, Context.MODE_PRIVATE);
+        SharedPreferences.Editor editor = preferences.edit();
+        editor.putString(CURRENT_CITY, cityName);
+        editor.commit();
+    }
+
+    public static String getCurrentCity(Context context){
+        SharedPreferences preferences = context.getSharedPreferences(CURRENT_LOCATION, Context.MODE_PRIVATE);
+        return preferences.getString(CURRENT_CITY, "深圳");
+    }
+
+    public static void setCurrentAddress(Context context,String address){
+        SharedPreferences preferences = context.getSharedPreferences(CURRENT_LOCATION, Context.MODE_PRIVATE);
+        SharedPreferences.Editor editor = preferences.edit();
+        editor.putString(CURRENT_ADDRESS, address);
+        editor.commit();
+    }
+
+    public static String getCurrentAddress(Context context){
+        SharedPreferences preferences = context.getSharedPreferences(CURRENT_LOCATION, Context.MODE_PRIVATE);
+        return preferences.getString(CURRENT_ADDRESS, "世界之窗");
+    }
+
+    public static LatLng getCurrentLatLng(Context context){
+        SharedPreferences preferences = context.getSharedPreferences(CURRENT_LOCATION, Context.MODE_PRIVATE);
+        LatLng ll = null;
+        if(preferences.getFloat(CURRENT_LATITUDE, 0f) != 0f){
+            ll = new LatLng((double)preferences.getFloat(CURRENT_LATITUDE, 0f),(double)preferences.getFloat(CURRENT_LONGITUDE, 0f));
+        }
+        return ll;
+    }
+}

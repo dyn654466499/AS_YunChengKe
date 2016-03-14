@@ -1,0 +1,546 @@
+[
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\layout_frame_white.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable\\layout_frame_white.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_news_comment.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable\\btn_news_comment.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\wheel_val.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable\\wheel_val.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_headline_selector.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable\\btn_headline_selector.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_loading_dialog.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable\\bg_loading_dialog.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ssdk_oks_classic_platform_corners_bg.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\exploded-aar\\yunchengke\\onekeyshare\\unspecified\\res\\drawable\\ssdk_oks_classic_platform_corners_bg.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_goandback_press.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable\\btn_goandback_press.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_goandback_selector.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable\\btn_goandback_selector.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable\\shape.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_user_info_common.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable\\btn_user_info_common.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_group_type.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable\\bg_group_type.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\wheel_bg.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable\\wheel_bg.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_group_pressed.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable\\btn_group_pressed.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\login_register_btn.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable\\login_register_btn.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_oneway_press.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable\\btn_oneway_press.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_oneway_unpress.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable\\btn_oneway_unpress.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\backgroud_rectangle_blue.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable\\backgroud_rectangle_blue.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_search_edit_box.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable\\bg_search_edit_box.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_setting_group_logo_pressed.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable\\btn_setting_group_logo_pressed.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\login_show_password.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable\\login_show_password.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_goandback_unpress.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable\\btn_goandback_unpress.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\trash.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable\\trash.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ticket_title_corner.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable\\ticket_title_corner.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_launcher.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_comment_editor.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable\\bg_comment_editor.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\fab_background.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\22.2.0\\res\\drawable\\fab_background.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_common_gradient_red.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable\\umeng_common_gradient_red.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\login_register.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable\\login_register.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_full_material.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_ratingbar_full_material.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_common_round_pressed.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable\\btn_common_round_pressed.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\city_segment_button_text_color.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable\\city_segment_button_text_color.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_add_topic_image.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable\\bg_add_topic_image.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ticket_button_corner.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable\\ticket_button_corner.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\radio_unchecked.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable\\radio_unchecked.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\autoloading.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable\\autoloading.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_common_round_normal.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable\\btn_common_round_normal.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rounded_stroke_1dp_grey.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable\\rounded_stroke_1dp_grey.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape2.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable\\shape2.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bmp_splash.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable\\bmp_splash.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_selector.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable\\bg_selector.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\title_btn_selector.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable\\title_btn_selector.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_follow_media.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable\\btn_follow_media.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_conner_right_unpress_orange.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable\\btn_conner_right_unpress_orange.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_common_gradient_green.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable\\umeng_common_gradient_green.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\indicator_bg_top.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable\\indicator_bg_top.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\editext_frame.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable\\editext_frame.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ticket_btn_selector.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable\\ticket_btn_selector.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_text_color.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable\\button_text_color.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_group_corners.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable\\btn_group_corners.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ticket_btn_corner_click.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable\\ticket_btn_corner_click.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_default_portrait.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable\\ic_default_portrait.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_oneway_selector.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable\\btn_oneway_selector.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_add_dynamic_image.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable\\bg_add_dynamic_image.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\title_backgroud_gradually.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable\\title_backgroud_gradually.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\sticky_shadow_default.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable\\sticky_shadow_default.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\white_left_corners.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable\\white_left_corners.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_setting_group_logo_normall.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable\\btn_setting_group_logo_normall.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_launcher58.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable\\ic_launcher58.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\product_progress_bar.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable\\product_progress_bar.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\boder_group_corners.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable\\boder_group_corners.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ssdk_oks_skyblue_platform_list_item.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\exploded-aar\\yunchengke\\onekeyshare\\unspecified\\res\\drawable\\ssdk_oks_skyblue_platform_list_item.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\unselected_point.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable\\unselected_point.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\slt_group_text_color.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable\\slt_group_text_color.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\circle_cornera_yuan_white.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable\\circle_cornera_yuan_white.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\city_detail_shape1.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable\\city_detail_shape1.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_common_white_round.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable\\btn_common_white_round.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_headline_normal.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable\\btn_headline_normal.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ssdk_oks_skyblue_platform_list_selector.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\exploded-aar\\yunchengke\\onekeyshare\\unspecified\\res\\drawable\\ssdk_oks_skyblue_platform_list_selector.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_common_item.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable\\bg_common_item.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_refresh.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable\\ic_refresh.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_setting_group_logo.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable\\btn_setting_group_logo.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\session_send_selector.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable\\session_send_selector.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_conner_left_unpress_blue.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable\\btn_conner_left_unpress_blue.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_join_group.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable\\btn_join_group.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\city_detail_shape2.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable\\city_detail_shape2.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_selector_frame.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable\\bg_selector_frame.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_launcher116.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable\\ic_launcher116.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\editext_corner.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable\\editext_corner.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\login_login.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable\\login_login.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\group_type_button_color.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable\\group_type_button_color.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\indicator_bg_bottom.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable\\indicator_bg_bottom.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ticket_btn_corner_selector.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable\\ticket_btn_corner_selector.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\login_login_btn.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable\\login_login_btn.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ssdk_oks_skyblue_platform_list_item_selected.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\exploded-aar\\yunchengke\\onekeyshare\\unspecified\\res\\drawable\\ssdk_oks_skyblue_platform_list_item_selected.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_common_gradient_orange.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable\\umeng_common_gradient_orange.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\layout_frame_nomal.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable\\layout_frame_nomal.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\headline_segment_button_text_color.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable\\headline_segment_button_text_color.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_group_selector.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable\\btn_group_selector.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_press_frame.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable\\btn_press_frame.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\login_edit.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable\\login_edit.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_dynamic_comment_count.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable\\bg_dynamic_comment_count.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\radio_checked.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable\\radio_checked.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_dark.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_dialog_material_background_dark.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_split_line.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable\\common_split_line.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rg_select_button_text.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable\\rg_select_button_text.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_common_round.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable\\btn_common_round.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_conner_right_unpress_blue.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable\\btn_conner_right_unpress_blue.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_conner_right_press.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable\\btn_conner_right_press.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\load_yellow_btn.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable\\load_yellow_btn.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_headline_pressed.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable\\btn_headline_pressed.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_select_topay.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable\\bg_select_topay.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_conner_left_unpress_orange.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable\\btn_conner_left_unpress_orange.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\snackbar_background.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\22.2.0\\res\\drawable\\snackbar_background.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\login_btn_down.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable\\login_btn_down.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_conner_left_press.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable\\btn_conner_left_press.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\catering_title_corner.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable\\catering_title_corner.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\circle_cornera.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable\\circle_cornera.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\slt_headline_text_color.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable\\slt_headline_text_color.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_light.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_dialog_material_background_light.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selected_point.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable\\selected_point.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pic_select.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\exploded-aar\\yunchengke\\photo_select\\unspecified\\res\\drawable\\pic_select.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\select_city_bg.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable\\select_city_bg.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_group_normal.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable\\btn_group_normal.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_disable_corner.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable\\button_disable_corner.xml"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_unpress_frame.xml",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable\\btn_unpress_frame.xml"
+    }
+]

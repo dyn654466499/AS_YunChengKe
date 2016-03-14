@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.yunchengke.app"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="23" />
+
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_GPS" />
+    <uses-permission android:name="android.permission.ACCES_MOCK_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_DOWNLOAD_MANAGER" />
+    <uses-permission android:name="android.permission.BAIDU_LOCATION_SERVICE" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true" />
+
+    <application
+        android:name="com.yunchengke.app.app.Application"
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:fullBackupContent="false"
+        android:icon="@drawable/logo_144px"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+
+        <!-- UMENG 统计分析 -->
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="56a6df8067e58edb5900135a" />
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="guanwang" />
+
+        <!-- glide -->
+        <meta-data
+            android:name="com.yunchengke.app.http.GlideConfiguration"
+            android:value="GlideModule" />
+
+        <!-- 百度地图Key -->
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="1LjQYy4UgvpUWv2WUW13nicD" />
+
+        <service
+            android:name="com.baidu.location.f"
+            android:enabled="true"
+            android:process=":remote" >
+            <intent-filter>
+                <action android:name="com.baidu.location.service_v2.2" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name="com.yunchengke.app.MainActivity"
+            android:label="@string/app_name" />
+
+        <!-- Activity基类，无标题栏 -->
+
+        <activity
+            android:name="com.yunchengke.app.ui.base.AbsBaseActivity"
+            android:theme="@style/AppBaseTheme.NoTitle" />
+
+        <!-- 分享 -->
+        <activity
+            android:name="com.mob.tools.MobUIShell"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:windowSoftInputMode="stateHidden|adjustResize" >
+            <intent-filter>
+                <data android:scheme="tencent1105050179" />
+
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 微信分享回调 -->
+        <activity
+            android:name="com.yunchengke.app.wxapi.WXEntryActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name="com.yunchengke.app.ui.activity.group.GroupActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppBaseTheme.NoTitle" />
+        <activity
+            android:name="ui.SelectPicActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppBaseTheme" />
+        <activity
+            android:name="com.yunchengke.app.ui.activity.group.GroupDetailActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoTitle" />
+        <activity
+            android:name="com.yunchengke.app.ui.activity.group.CreateTopicActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppBaseTheme.NoTitle" />
+        <activity
+            android:name="com.yunchengke.app.ui.activity.group.GroupMemberActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoTitle" />
+        <activity
+            android:name="com.yunchengke.app.ui.activity.group.TopicDetailActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppBaseTheme.NoTitle"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.yunchengke.app.ui.activity.group.CategoryDetailActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppBaseTheme.NoTitle" />
+        <activity
+            android:name="com.yunchengke.app.ui.activity.group.SelectCategoryActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppBaseTheme.NoTitle" />
+        <activity
+            android:name="com.yunchengke.app.ui.activity.group.CreateGroupActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppBaseTheme.NoTitle" />
+
+        <!-- 头条 -->
+
+        <activity
+            android:name="com.yunchengke.app.ui.activity.headline.HeadlineActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppBaseTheme.NoTitle" />
+        <activity
+            android:name="com.yunchengke.app.ui.activity.headline.NewsDetailActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppBaseTheme.NoTitle"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.yunchengke.app.ui.activity.headline.MediaDetailActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppBaseTheme.NoTitle" />
+        <activity
+            android:name="com.yunchengke.app.ui.activity.headline.MediaMemberActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppBaseTheme.NoTitle" />
+        <activity
+            android:name="com.yunchengke.app.ui.activity.headline.InstantNewsActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppBaseTheme.NoTitle" />
+        <activity
+            android:name="com.yunchengke.app.ui.activity.headline.PastNewsActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppBaseTheme.NoTitle" />
+
+        <!-- 头条 -->
+
+        <activity
+            android:name="com.yunchengke.app.ui.activity.login.ForgetPasswordActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppBaseTheme.NoTitle" />
+        <activity
+            android:name="com.yunchengke.app.ui.activity.login.LoginActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppBaseTheme.NoTitle" />
+        <activity
+            android:name="com.yunchengke.app.ui.activity.login.RegisterActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppBaseTheme.NoTitle" />
+        <activity
+            android:name="com.yunchengke.app.ui.activity.maintab.KeyBackStopActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.yunchengke.app.ui.activity.maintab.HomePageActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity android:name="com.yunchengke.app.ui.activity.maintab.MainTabAct" />
+        <activity
+            android:name="com.yunchengke.app.ui.activity.maintab.MyAct"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoTitle" />
+
+        <!-- 机票模块 -->
+        <activity
+            android:name="com.yunchengke.app.ui.activity.daemon.FlightSearchActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppBaseTheme.NoTitle" />
+        <activity
+            android:name="com.yunchengke.app.ui.activity.daemon.CitySearchActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppBaseTheme.NoTitle" />
+        <activity
+            android:name="com.yunchengke.app.ui.activity.daemon.OrderTicketEditActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppBaseTheme.NoTitle"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.yunchengke.app.ui.activity.daemon.DatePickActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppBaseTheme.NoTitle" />
+        <activity
+            android:name="com.yunchengke.app.ui.activity.daemon.TypeSelectActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ActivityTransparent" />
+        <activity
+            android:name="com.yunchengke.app.ui.activity.daemon.EndorseActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ActivityTransparent" />
+        <activity
+            android:name="com.yunchengke.app.ui.activity.daemon.FlightResultActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppBaseTheme.NoTitle" />
+        <activity
+            android:name="com.yunchengke.app.ui.activity.daemon.MyConsumeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppBaseTheme.NoTitle" />
+        <activity
+            android:name="com.yunchengke.app.ui.activity.daemon.OrderTicketDetailActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppBaseTheme.NoTitle" />
+        <activity
+            android:name="com.yunchengke.app.ui.activity.daemon.OrderReturnInfoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ActivityTransparent" />
+        <activity
+            android:name="com.yunchengke.app.ui.activity.daemon.EditPersonInfoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppBaseTheme.NoTitle" />
+        <activity
+            android:name="com.yunchengke.app.ui.activity.daemon.ImageSelectActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ActivityTransparent" />
+        <activity
+            android:name="com.yunchengke.app.ui.activity.daemon.OrderCateringDetailActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppBaseTheme.NoTitle" />
+        <activity
+            android:name="com.yunchengke.app.ui.activity.daemon.OrderLocalCityDetailActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppBaseTheme.NoTitle" />
+        <activity
+            android:name="com.yunchengke.app.pay.unionpay.UnionPayActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppBaseTheme" />
+        <activity
+            android:name="com.yunchengke.app.ui.activity.CommonWebView"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppBaseTheme.NoTitle" />
+        <!-- 动态 -->
+        <activity
+            android:name="com.yunchengke.app.ui.activity.dynamic.DynamicActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:windowSoftInputMode="adjustResize|stateHidden|stateAlwaysHidden" />
+        <!-- 动态详情 -->
+        <activity
+            android:name="com.yunchengke.app.ui.activity.dynamic.DynamicDetailActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoTitle"
+            android:windowSoftInputMode="adjustPan|stateHidden|stateAlwaysHidden" />
+        <!-- 发送动态 -->
+
+        <activity
+            android:name="com.yunchengke.app.ui.activity.dynamic.PublishDynamicActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoTitle"
+            android:windowSoftInputMode="adjustResize|stateHidden|stateAlwaysHidden" />
+
+        <!-- 大图浏览图片 -->
+        <activity
+            android:name="com.yunchengke.app.ui.activity.common.ZoomGalleryActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppBaseTheme.FullScreen"
+            android:windowSoftInputMode="adjustResize|stateHidden|stateAlwaysHidden" />
+
+        <!-- 用户信息 -->
+        <activity
+            android:name="com.yunchengke.app.ui.activity.common.UserInfoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoTitle"
+            android:windowSoftInputMode="adjustResize|stateHidden|stateAlwaysHidden" />
+        <activity
+            android:name="com.yunchengke.app.ui.activity.dynamic.FansListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoTitle"
+            android:windowSoftInputMode="adjustResize|stateHidden|stateAlwaysHidden" />
+        <activity
+            android:name="com.yunchengke.app.ui.activity.dynamic.FollowListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoTitle"
+            android:windowSoftInputMode="adjustResize|stateHidden|stateAlwaysHidden" />
+        <activity
+            android:name="com.yunchengke.app.ui.activity.daemon.CateringSearchActivity"
+            android:label="@string/title_activity_catering"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppBaseTheme.NoTitle" />
+        <activity
+            android:name="com.yunchengke.app.ui.activity.daemon.CateringDetailActivity"
+            android:label="@string/title_activity_catering_detail"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppBaseTheme.NoTitle" />
+        <activity
+            android:name="com.yunchengke.app.ui.activity.WelcomeActivity"
+            android:theme="@style/AppBaseTheme.FullScreen" />
+        <activity
+            android:name="com.yunchengke.app.ui.activity.daemon.CateringDishesActivity"
+            android:label="@string/title_activity_catering_dishes"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppBaseTheme.NoTitle" />
+        <activity
+            android:name="com.yunchengke.app.ui.activity.daemon.CateringBookActivity"
+            android:label="@string/title_activity_catering_book"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppBaseTheme.NoTitle" />
+        <activity
+            android:name="com.yunchengke.app.ui.activity.daemon.CateringCommentActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppBaseTheme.NoTitle"
+            android:windowSoftInputMode="adjustPan|stateAlwaysHidden" />
+        <activity
+            android:name="com.yunchengke.app.ui.activity.daemon.CateringMerchantInfoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppBaseTheme.NoTitle" />
+        <activity
+            android:name="com.yunchengke.app.ui.activity.daemon.CommentActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppBaseTheme.NoTitle"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.yunchengke.app.ui.activity.daemon.CateringBookResultActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppBaseTheme.NoTitle"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.yunchengke.app.ui.activity.daemon.MapActivity"
+            android:label="@string/title_activity_map"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppBaseTheme.NoTitle" />
+        <!-- 同城 -->
+
+        <activity
+            android:name="com.yunchengke.app.ui.activity.city.SameCityAcitvity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppBaseTheme"
+            android:windowSoftInputMode="adjustResize|stateHidden|stateAlwaysHidden" />
+        <activity
+            android:name="com.yunchengke.app.ui.activity.city.ToPayActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppBaseTheme.NoTitle"
+            android:windowSoftInputMode="adjustResize|stateHidden|stateAlwaysHidden" />
+        <activity
+            android:name="com.yunchengke.app.ui.activity.city.CityDetailsActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppBaseTheme.NoTitle" />
+        <activity
+            android:name="com.yunchengke.app.ui.activity.city.YCKCommentActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppBaseTheme.NoTitle" />
+        <!-- 餐饮查看菜品大图 -->
+        <activity
+            android:name="com.yunchengke.app.ui.activity.daemon.CateringBookDishesLargeActivity"
+            android:label="@string/title_activity_catering_book_dishes_list"
+            android:screenOrientation="portrait"
+            android:theme="@style/ActivityTransparent" />
+        <activity
+            android:name="com.yunchengke.app.ui.activity.city.YCKJoinedActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppBaseTheme.NoTitle" />
+        <activity
+            android:name="com.yunchengke.app.ui.activity.city.YCKPhotoActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppBaseTheme.NoTitle" />
+        <activity android:name="com.yunchengke.app.ui.activity.city.YCKAddCommentActivity" />
+        <activity
+            android:name="com.yunchengke.app.ui.activity.GuideActivity"
+            android:theme="@style/AppBaseTheme.FullScreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.yunchengke.app.ui.activity.daemon.ICBCPayUi"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.yunchengke.app.ui.activity.city.AddCreateActivities"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppBaseTheme.NoTitle"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.yunchengke.app.ui.activity.maintab.MyInfoActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppBaseTheme.NoTitle" />
+    </application>
+
+</manifest>

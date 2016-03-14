@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:background="@color/white"
+              android:paddingLeft="@dimen/activity_margin_left"
+              android:paddingRight="@dimen/activity_margin_right"
+              android:layout_width="match_parent"
+              android:layout_height="69dp">
+
+    <com.yunchengke.app.ui.view.daemon.CircleImageView
+        android:id="@+id/iv_item_follow_portrait"
+        app:border_color="@color/transparent"
+        app:border_width="1dp"
+        android:layout_centerVertical="true"
+        android:contentDescription="@null"
+        android:layout_gravity="center_vertical|left"
+        android:layout_width="34dp"
+        android:layout_height="34dp"/>
+
+    <Button
+        android:id="@+id/btn_item_follow_cancel"
+        android:text="取消关注"
+        android:textColor="#999999"
+        android:textSize="15dp"
+        android:gravity="center"
+        android:background="@drawable/btn_common_white_round"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_width="100dp"
+        android:layout_height="31dp"/>
+
+
+    <TextView
+        android:id="@+id/tv_item_follow_name"
+        android:textSize="15dp"
+        android:textColor="@color/common_black_color"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/iv_item_follow_portrait"
+        android:layout_toLeftOf="@id/btn_item_follow_cancel"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:singleLine="true"
+        android:layout_gravity="center_vertical|left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.yunchengke.app.ui.activity.daemon.CateringBookActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_status_height"
+        android:background="@color/catering_title_color"/>
+  <include layout="@layout/layout_title_orange"/>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="0dp"
+       android:orientation="horizontal"
+       android:layout_weight="9"
+       android:background="@color/ticket_white"
+       >
+
+       <LinearLayout
+           android:layout_width="80dp"
+           android:layout_height="match_parent"
+           android:background="@drawable/layout_frame_white"
+           >
+       <ListView
+           android:id="@+id/lv_catering_book_classify"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:divider="#e0e0e0"
+           android:dividerHeight="1dp"
+           android:scrollbars="none"
+           />
+       </LinearLayout>
+       <ListView
+           android:id="@+id/lv_catering_book_dishes"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:divider="#e0e0e0"
+           android:dividerHeight="1dp"
+           android:scrollbars="none"
+           />
+
+   </LinearLayout>
+
+    <!-- 总价和提交订单 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/catering_title_color"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tv_catering_book_total"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="4"
+            android:gravity="center_vertical"
+            android:text=""
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2" >
+
+            <Button
+                android:id="@+id/btn_catering_book_commit"
+                android:layout_width="88dp"
+                android:layout_height="35dp"
+                android:layout_centerInParent="true"
+                android:background="#ffffff"
+                android:text="点好了"
+                android:textColor="@color/catering_title_color"
+                android:textSize="@dimen/button_textSize" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

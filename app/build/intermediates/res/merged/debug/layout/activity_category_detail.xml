@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btn_category_detail_create_group"
+        android:text="@string/create_group"
+        android:textColor="@color/white"
+        android:textSize="@dimen/group_button_text_size"
+        android:background="@drawable/btn_group_selector"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/group_button_height"/>
+    
+    <com.lee.pullrefresh.PullToRefreshListView
+        android:id="@+id/lv_category_detail_refresh"
+        android:visibility="gone"
+        android:layout_above="@id/btn_category_detail_create_group"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.yunchengke.app.ui.view.GroupListView
+        android:id="@+id/lv_category_detail_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </com.yunchengke.app.ui.view.GroupListView>
+
+</RelativeLayout>

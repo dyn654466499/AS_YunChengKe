@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/lyt_view_mygroup_created_group"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:text="我关注的媒体"
+            android:layout_alignParentLeft="true"
+            android:paddingLeft="@dimen/activity_margin_left"
+            android:textSize="15dp"
+            android:textColor="@color/common_black_color"
+            android:background="@color/white"
+            android:layout_height="34dp"
+            android:gravity="left|center_vertical"
+            android:layout_width="match_parent"/>
+
+        <View
+            android:background="@color/grid_view_split_line_color"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/split_line_height" />
+
+        <com.lee.pullrefresh.PullToRefreshListView
+            android:id="@+id/lv_my_headline_news"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <View
+            android:background="@color/grid_view_split_line_color"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/split_line_height" />
+
+    </LinearLayout>
+
+</merge>

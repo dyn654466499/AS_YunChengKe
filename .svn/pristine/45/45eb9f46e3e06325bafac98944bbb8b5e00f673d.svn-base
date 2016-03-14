@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btn_group_detail_create_topic"
+        android:visibility="gone"
+        android:text="创建话题"
+        android:textSize="@dimen/group_button_text_size"
+        android:textColor="@drawable/slt_group_text_color"
+        android:background="@drawable/btn_group_selector"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <com.lee.pullrefresh.PullToRefreshListView
+        android:id="@+id/lv_group_detail_topics"
+        android:layout_above="@id/btn_group_detail_create_topic"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</RelativeLayout>

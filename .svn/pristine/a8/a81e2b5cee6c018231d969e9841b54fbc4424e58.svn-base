@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/create_activites_title">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/title_status_height"
+            android:background="@color/create_activites_title"/>
+        <include
+            android:id="@+id/btn_title_back"
+            layout="@layout/layout_btn_back" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="标题"
+            android:textColor="#ffffff"
+            android:layout_centerInParent="true"
+            android:maxWidth="230dp"
+            android:singleLine="true"
+            android:textSize="@dimen/layout_title"
+            />
+
+    </RelativeLayout>
+</LinearLayout>

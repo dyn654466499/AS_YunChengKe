@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/ticket_white"
+    android:paddingLeft="25dp"
+    android:paddingTop="10dp"
+    android:paddingRight="25dp"
+    android:paddingBottom="10dp"
+    android:layout_gravity="center"
+    >
+        <ImageView
+            android:id="@+id/imageView_catering_book_dishes_large_icon"
+            android:layout_width="240dp"
+            android:layout_height="240dp"
+            android:layout_gravity="center"
+            android:src="@drawable/submit_edit_clear_normal"
+            />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        >
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        >
+
+        <EditText
+            android:id="@+id/et_catering_book_dishes_large_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:singleLine="true"
+            android:background="@null"
+            android:focusable="false"
+            android:text="名字"
+            android:textColor="@color/ticket_black"
+            android:textSize="15sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            >
+            <TextView
+                android:id="@+id/tv_catering_book_dishes_large_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="钱"
+                android:textColor="@color/catering_title_color"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tv_catering_book_dishes_large_nums"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="x 0"
+                android:textColor="@color/catering_title_color"
+                android:textSize="15sp"
+                android:visibility="gone"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="85dp"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        >
+
+       <ImageButton
+           android:id="@+id/imageBtn_catering_book_dishes_large_jian"
+           android:layout_width="32dp"
+           android:layout_height="32dp"
+           android:layout_centerVertical="true"
+           android:src="@drawable/ic_jian"
+           android:scaleType="centerCrop"
+           android:background="@drawable/layout_frame_white"
+           android:visibility="invisible"
+           />
+
+        <ImageButton
+            android:id="@+id/imageBtn_catering_book_dishes_large_jia"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/ic_jia_white"
+            android:scaleType="centerCrop"
+            android:background="@drawable/catering_title_corner"
+            />
+    </RelativeLayout>
+</LinearLayout>
+</LinearLayout>

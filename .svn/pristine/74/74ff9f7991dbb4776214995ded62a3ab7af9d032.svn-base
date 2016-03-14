@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_view_category_all"
+                android:text="所有分类"
+                android:paddingLeft="@dimen/activity_margin_left"
+                android:textSize="15dp"
+                android:textColor="@color/common_black_color"
+                android:background="@color/white"
+                android:layout_height="34dp"
+                android:gravity="left|center_vertical"
+                android:layout_width="match_parent"/>
+
+            <com.yunchengke.app.ui.widget.SplitLineGridView
+                android:id="@+id/gdv_view_category_content"
+                android:layout_below="@id/tv_view_category_all"
+                android:numColumns="3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <include
+                android:layout_below="@id/gdv_view_category_content"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/split_line_height"
+                layout="@layout/common_split_line"/>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</merge>

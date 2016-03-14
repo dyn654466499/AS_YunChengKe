@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:background="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="69dp">
+
+    <com.yunchengke.app.ui.view.daemon.CircleImageView
+        android:id="@+id/iv_item_topic_comment_portrait"
+        android:layout_alignParentLeft="true"
+        app:border_color="@color/transparent"
+        app:border_width="1dp"
+        android:layout_marginLeft="15dp"
+        android:layout_centerVertical="true"
+        android:contentDescription="@null"
+        android:layout_width="@dimen/portrait_height"
+        android:layout_height="@dimen/portrait_height"/>
+
+    <RelativeLayout
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:gravity="center_vertical"
+        android:layout_toRightOf="@id/iv_item_topic_comment_portrait"
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/lyt_item_topic_top"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_item_topic_comment_name"
+                android:layout_gravity="left|center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/tv_item_topic_comment_datetime"
+                android:layout_gravity="right|center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_item_topic_comment_content"
+            android:layout_below="@id/lyt_item_topic_top"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+
+    <include
+        android:id="@+id/lyt_item_topic_comment_divider"
+        layout="@layout/common_split_line"
+        android:layout_alignParentBottom="true"
+        android:layout_height="@dimen/split_line_height"
+        android:layout_width="match_parent" />
+
+</RelativeLayout>

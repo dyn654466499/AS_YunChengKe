@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+      android:orientation="vertical"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/edt_create_topic_title"
+        android:background="@color/white"
+        android:hint="@string/topic_title_hint"
+        android:textSize="15dp"
+        android:textColor="@color/common_black_color"
+        android:inputType="text"
+        android:singleLine="true"
+        android:paddingLeft="@dimen/activity_margin_left"
+        android:paddingRight="@dimen/activity_margin_right"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"/>
+
+    <include
+        layout="@layout/common_split_line"/>
+
+    <include
+        layout="@layout/common_split_line"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/split_line_height"/>
+    
+    <RelativeLayout
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/edt_create_topic_content"
+            android:hint="@string/topic_content_hint"
+            android:background="@color/white"
+            android:layout_alignParentTop="true"
+            android:textSize="15dp"
+            android:textColor="@color/common_black_color"
+            android:inputType="text"
+            android:singleLine="false"
+            android:paddingLeft="@dimen/activity_margin_left"
+            android:paddingRight="@dimen/activity_margin_right"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:gravity="left|top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="110dp"/>
+
+        <GridView
+            android:id="@+id/gdv_create_topic_image"
+            android:layout_below="@id/edt_create_topic_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:paddingLeft="@dimen/activity_margin_left"
+            android:paddingRight="@dimen/activity_margin_right"
+            android:gravity="left"
+            android:columnWidth="74dp"
+            android:paddingTop="14dp"
+            android:paddingBottom="14dp"
+            android:listSelector="@color/transparent"
+            android:numColumns="auto_fit"
+            android:stretchMode="none"
+            android:horizontalSpacing="8dp"
+            android:verticalSpacing="8dp" >
+        </GridView>
+
+    </RelativeLayout>
+
+    <include
+        layout="@layout/common_split_line"/>
+
+</LinearLayout>

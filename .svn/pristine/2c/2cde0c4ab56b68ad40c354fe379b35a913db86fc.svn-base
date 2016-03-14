@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:background="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/content"
+        android:paddingLeft="@dimen/activity_margin_left"
+        android:paddingRight="@dimen/activity_margin_right"
+                  android:orientation="horizontal"
+                  android:paddingTop="15dp"
+                  android:paddingBottom="15dp"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_item_sub_past_news_image"
+            android:contentDescription="@null"
+            android:layout_width="100dp"
+            android:layout_height="60dp"/>
+
+        <RelativeLayout
+            android:layout_marginLeft="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_item_sub_past_news_title"
+                android:textSize="15dp"
+                android:textColor="@color/common_black_color"
+                android:singleLine="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/tv_item_sub_past_news_introduction"
+                android:layout_below="@id/tv_item_sub_past_news_title"
+                android:textSize="13dp"
+                android:textColor="@color/common_gray_color"
+                android:singleLine="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/tv_item_sub_past_news_creator"
+                android:layout_below="@id/tv_item_sub_past_news_introduction"
+                android:textSize="13dp"
+                android:textColor="@color/common_gray_color"
+                android:singleLine="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <include
+        android:id="@+id/split_line"
+        android:layout_below="@id/content"
+        layout="@layout/common_split_line"
+        android:layout_width="match_parent"
+        android:paddingLeft="@dimen/activity_margin_left"
+        android:paddingRight="@dimen/activity_margin_right"
+        android:layout_height="@dimen/split_line_height"/>
+
+</RelativeLayout>

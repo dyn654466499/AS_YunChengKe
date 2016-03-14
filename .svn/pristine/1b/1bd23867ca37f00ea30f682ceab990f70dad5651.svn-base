@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <!-- 底部固定部分 -->
+    <Button
+        android:text="@string/create_group_button_text"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/btn_create_group_create"
+        android:textColor="@color/white"
+        android:textSize="@dimen/group_button_text_size"
+        android:background="@drawable/btn_group_selector"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/group_button_height"/>
+
+    <ScrollView
+        android:layout_above="@id/btn_create_group_create"
+        android:fillViewport="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/content"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!-- 小组类型 -->
+            <RelativeLayout
+                android:background="@color/white"
+                android:paddingLeft="@dimen/activity_margin_left"
+                android:paddingRight="@dimen/activity_margin_right"
+                android:layout_width="match_parent"
+                android:layout_height="70dp">
+
+                <TextView
+                    android:id="@+id/tv_create_group_type"
+                    android:text="@string/group_type"
+                    android:textSize="14dp"
+                    android:textColor="@color/common_black_color"
+                    android:layout_centerVertical="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+
+                <RadioGroup
+                    android:id="@+id/rgp_create_group_type"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="27dp"
+                    android:gravity="center_vertical|left"
+                    android:orientation="horizontal"
+                    android:layout_toRightOf="@id/tv_create_group_type"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <RadioButton
+                        android:id="@+id/rd_create_group_public_group"
+                        android:text="公开小组"
+                        android:checked="true"
+                        android:button="@null"
+                        android:textColor="@drawable/group_type_button_color"
+                        android:textSize="14dp"
+                        android:background="@drawable/bg_group_type"
+                        android:gravity="center"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"/>
+
+                    <RadioButton
+                        android:id="@+id/rd_create_group_private_group"
+                        android:checked="false"
+                        android:text="私密小组"
+                        android:button="@null"
+                        android:textColor="@drawable/group_type_button_color"
+                        android:textSize="14dp"
+                        android:background="@drawable/bg_group_type"
+                        android:gravity="center"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"/>
+
+                </RadioGroup>
+
+            </RelativeLayout>
+
+            <!-- 分类、名称、图片，简介 -->
+
+            <RelativeLayout
+                android:background="@color/white"
+                android:paddingLeft="@dimen/activity_margin_left"
+                android:paddingRight="@dimen/activity_margin_right"
+                android:layout_width="match_parent"
+                android:layout_height="62dp">
+
+                <TextView
+                    android:id="@+id/tv_create_group_category"
+                    android:text="@string/group_category"
+                    android:layout_centerVertical="true"
+                    android:textSize="14dp"
+                    android:textColor="@color/common_black_color"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:id="@+id/tv_create_group_category_name"
+                    android:layout_toRightOf="@id/tv_create_group_category"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="27dp"
+                    android:text="公开小组"
+                    android:textColor="@color/white"
+                    android:textSize="14dp"
+                    android:gravity="center"
+                    android:paddingLeft="4dp"
+                    android:paddingRight="4dp"
+                    android:background="@drawable/btn_common_round"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"/>
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:background="@color/white"
+                android:paddingLeft="@dimen/activity_margin_left"
+                android:paddingRight="@dimen/activity_margin_right"
+                android:layout_width="match_parent"
+                android:layout_height="62dp">
+
+                <TextView
+                    android:id="@+id/tv_create_group_name"
+                    android:text="@string/group_name"
+                    android:textSize="14dp"
+                    android:textColor="@color/common_black_color"
+                    android:layout_centerVertical="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+
+                <EditText
+                    android:id="@+id/edt_create_group_name"
+                    android:layout_marginLeft="27dp"
+                    android:layout_centerVertical="true"
+                    android:background="@null"
+                    android:textSize="14dp"
+                    android:textColor="@color/common_black_color"
+                    android:textColorHint="@color/common_gray_color"
+                    android:hint="必填"
+                    android:layout_toRightOf="@id/tv_create_group_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/lyt_create_group_logo"
+                android:background="@color/white"
+                android:paddingLeft="@dimen/activity_margin_left"
+                android:paddingRight="@dimen/activity_margin_right"
+                android:layout_width="match_parent"
+                android:layout_height="90dp">
+
+                <TextView
+                    android:id="@+id/tv_create_group_portrait"
+                    android:text="小组图片"
+                    android:textSize="14dp"
+                    android:textColor="@color/common_black_color"
+                    android:layout_centerVertical="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <ImageView
+                    android:id="@+id/iv_create_group_portrait"
+                    android:layout_toRightOf="@id/tv_create_group_portrait"
+                    android:visibility="gone"
+                    android:layout_marginLeft="27dp"
+                    android:layout_centerVertical="true"
+                    android:layout_width="58dp"
+                    android:layout_height="58dp"/>
+
+                <Button
+                    android:id="@+id/btn_create_group_add_portrait"
+                    android:layout_toRightOf="@id/iv_create_group_portrait"
+                    android:layout_marginLeft="27dp"
+                    android:layout_centerVertical="true"
+                    android:text="头像\n设置"
+                    android:textSize="14dp"
+                    android:textColor="@color/common_gray_color"
+                    android:background="@drawable/btn_setting_group_logo"
+                    android:layout_width="58dp"
+                    android:layout_height="58dp"/>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/lyt_create_group_image"
+                android:background="@color/white"
+                android:paddingLeft="@dimen/activity_margin_left"
+                android:paddingRight="@dimen/activity_margin_right"
+                android:layout_width="match_parent"
+                android:layout_height="90dp">
+
+                <TextView
+                    android:id="@+id/tv_create_group_image"
+                    android:text="小组封面"
+                    android:textSize="14dp"
+                    android:textColor="@color/common_black_color"
+                    android:layout_centerVertical="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <ImageView
+                    android:id="@+id/iv_create_group_image"
+                    android:layout_toRightOf="@id/tv_create_group_image"
+                    android:visibility="gone"
+                    android:layout_marginLeft="27dp"
+                    android:layout_centerVertical="true"
+                    android:layout_width="58dp"
+                    android:layout_height="58dp"/>
+
+                <Button
+                    android:id="@+id/btn_create_group_add_image"
+                    android:layout_toRightOf="@id/iv_create_group_image"
+                    android:layout_marginLeft="27dp"
+                    android:layout_centerVertical="true"
+                    android:text="封面\n设置"
+                    android:textSize="14dp"
+                    android:textColor="@color/common_gray_color"
+                    android:background="@drawable/btn_setting_group_logo"
+                    android:layout_width="58dp"
+                    android:layout_height="58dp"/>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:background="@color/white"
+                android:paddingLeft="@dimen/activity_margin_left"
+                android:paddingRight="@dimen/activity_margin_right"
+                android:layout_width="match_parent"
+                android:layout_height="140dp">
+
+                <TextView
+                    android:id="@+id/tv_create_group_introduction"
+                    android:text="@string/group_introduction"
+                    android:textSize="14dp"
+                    android:textColor="@color/common_black_color"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="25dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:text="必填"
+                    android:layout_alignBaseline="@id/tv_create_group_introduction"
+                    android:layout_marginLeft="28dp"
+                    android:textSize="14dp"
+                    android:textColor="@color/common_gray_color"
+                    android:layout_toRightOf="@id/tv_create_group_introduction"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <EditText
+                    android:id="@+id/edt_create_group_introduction_content"
+                    android:layout_marginTop="5dp"
+                    android:textSize="15dp"
+                    android:textColor="@color/common_black_color"
+                    android:background="@color/white"
+                    android:layout_below="@id/tv_create_group_introduction"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

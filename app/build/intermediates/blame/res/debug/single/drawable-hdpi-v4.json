@@ -1,0 +1,610 @@
+[
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_faxian_shipin.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable-hdpi\\ic_faxian_shipin.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_light.9.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_list_selector_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\register_btn_default.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable-hdpi\\register_btn_default.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tip_loading1.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable-hdpi\\tip_loading1.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_scrubber_control_to_pressed_mtrl_005.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_tab_faxian.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable-hdpi\\ic_tab_faxian.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_tab_tongcheng_selected.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable-hdpi\\ic_tab_tongcheng_selected.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pic_dir.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\exploded-aar\\yunchengke\\photo_select\\unspecified\\res\\drawable-hdpi-v4\\pic_dir.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_faxian_chedai.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable-hdpi\\ic_faxian_chedai.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\oq.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable-hdpi\\oq.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\a6.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable-hdpi\\a6.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\dr.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable-hdpi\\dr.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\submit_edit_clear_normal.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable-hdpi\\submit_edit_clear_normal.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\register_btn_selected.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable-hdpi\\register_btn_selected.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\picture_unselected.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\exploded-aar\\yunchengke\\photo_select\\unspecified\\res\\drawable-hdpi-v4\\picture_unselected.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\esh.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable-hdpi\\esh.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_faxian_tejia.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable-hdpi\\ic_faxian_tejia.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_duigou_lan.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable-hdpi\\ic_duigou_lan.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tip_loading2.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable-hdpi\\tip_loading2.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_cab_background_top_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\cz.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable-hdpi\\cz.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\jr.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable-hdpi\\jr.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_jia.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable-hdpi\\ic_jia.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_switch_track_mtrl_alpha.9.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_tab_dongtai_selected.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable-hdpi\\ic_tab_dongtai_selected.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\fm.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable-hdpi\\fm.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\hu.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable-hdpi\\hu.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_faxian_qiche.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable-hdpi\\ic_faxian_qiche.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\dir_choose.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\exploded-aar\\yunchengke\\photo_select\\unspecified\\res\\drawable-hdpi-v4\\dir_choose.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_pressed_holo_dark.9.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_xiangxia.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable-hdpi\\ic_xiangxia.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ssdk_oks_ptr_ptr.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\exploded-aar\\yunchengke\\onekeyshare\\unspecified\\res\\drawable-hdpi-v4\\ssdk_oks_ptr_ptr.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\eu.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable-hdpi\\eu.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\qw.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable-hdpi\\qw.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_jia_white.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable-hdpi\\ic_jia_white.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_menu_hardkey_panel_mtrl_mult.9.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_clear_mtrl_alpha.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_ic_clear_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_scrubber_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\cn.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable-hdpi\\cn.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_spinner_mtrl_am_alpha.9.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_tab_xiaoxi_selected.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable-hdpi\\ic_tab_xiaoxi_selected.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_tab_tongcheng.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable-hdpi\\ic_tab_tongcheng.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\g5.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable-hdpi\\g5.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tip_loading4.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable-hdpi\\tip_loading4.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\dancheng.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable-hdpi\\dancheng.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_tab_canyin.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable-hdpi\\ic_tab_canyin.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_radio_to_on_mtrl_015.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_rating_star_on_mtrl_alpha.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_btn_rating_star_on_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\toast.9.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable-hdpi\\toast.9.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_longpressed_holo.9.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_jtfk.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable-hdpi\\ic_jtfk.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\airline_9c.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable-hdpi\\airline_9c.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_faxian_xiaozu.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable-hdpi\\ic_faxian_xiaozu.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_jian.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable-hdpi\\ic_jian.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\mf.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable-hdpi\\mf.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pictures_no.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\exploded-aar\\yunchengke\\photo_select\\unspecified\\res\\drawable-hdpi-v4\\pictures_no.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\comment_default_head.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable-hdpi\\comment_default_head.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_tab_dongtai.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable-hdpi\\ic_tab_dongtai.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_faxian_xinwen.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable-hdpi\\ic_faxian_xinwen.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\airline_3u.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable-hdpi\\airline_3u.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tip_loading5.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable-hdpi\\tip_loading5.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\y8.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable-hdpi\\y8.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_ab_back_mtrl_am_alpha.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_ic_ab_back_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_bg.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable-hdpi\\icon_bg.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_faxian_lvxing.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable-hdpi\\ic_faxian_lvxing.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bk.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable-hdpi\\bk.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_tab_canyin_selected.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable-hdpi\\ic_tab_canyin_selected.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\uq.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable-hdpi\\uq.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\mu.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable-hdpi\\mu.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_go_search_api_mtrl_alpha.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_ic_go_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sc.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable-hdpi\\sc.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ky.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable-hdpi\\ky.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_scrubber_primary_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_radio_to_on_mtrl_000.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_btn_radio_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_faxian_yishupin.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable-hdpi\\ic_faxian_yishupin.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\jpdd_dq.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable-hdpi\\jpdd_dq.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\fu.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable-hdpi\\fu.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_divider_mtrl_alpha.9.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_list_divider_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\yi.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable-hdpi\\yi.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\jd.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable-hdpi\\jd.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ca.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable-hdpi\\ca.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_fanxiang.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable-hdpi\\ic_fanxiang.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_default_mtrl_alpha.9.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_textfield_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_faxian_wmai.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable-hdpi\\ic_faxian_wmai.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_000.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tip_loading7.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable-hdpi\\tip_loading7.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_ic_menu_paste_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_faxian_dianying.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable-hdpi\\ic_faxian_dianying.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\right_arrow.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable-hdpi\\right_arrow.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\vd.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable-hdpi\\vd.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_voice_search_api_mtrl_alpha.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_ic_voice_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_ab_share_pack_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\gx.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable-hdpi\\gx.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_rating_star_off_mtrl_alpha.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_btn_rating_star_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tip_loading8.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable-hdpi\\tip_loading8.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_book.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable-hdpi\\ic_book.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\jp_list.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable-hdpi\\jp_list.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\zh.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable-hdpi\\zh.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_faxian_jipiao.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable-hdpi\\ic_faxian_jipiao.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_textfield_search_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ho.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable-hdpi\\ho.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\image_test1.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable-hdpi\\image_test1.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\left_arrow.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable-hdpi\\left_arrow.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_marka.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable-hdpi\\icon_marka.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_cant.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable-hdpi\\ic_cant.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_scrubber_control_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_ic_commit_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_pressed_holo_light.9.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pn.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable-hdpi\\pn.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_scrubber_control_to_pressed_mtrl_000.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_015.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\line.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable-hdpi\\line.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_share_mtrl_alpha.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_ic_menu_share_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_faxian_gouwu.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable-hdpi\\ic_faxian_gouwu.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_faxian_geren.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable-hdpi\\ic_faxian_geren.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_textfield_search_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\gj.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable-hdpi\\gj.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_tab_xiaoxi.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable-hdpi\\ic_tab_xiaoxi.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_textfield_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bg_calendar_seleced.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable-hdpi\\bg_calendar_seleced.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\dz.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable-hdpi\\dz.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_faxian_new.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable-hdpi\\ic_faxian_new.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\airline_8l.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable-hdpi\\airline_8l.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\popup.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable-hdpi\\popup.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pictures_selected.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\exploded-aar\\yunchengke\\photo_select\\unspecified\\res\\drawable-hdpi-v4\\pictures_selected.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_popup_background_mtrl_mult.9.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_popup_background_mtrl_mult.9.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_tab_faxian_selected.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable-hdpi\\ic_tab_faxian_selected.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_tab_indicator_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_faxian_jiudian.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable-hdpi\\ic_faxian_jiudian.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_ic_menu_selectall_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\image_test.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable-hdpi\\image_test.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\exploded-aar\\yunchengke\\photo_select\\unspecified\\res\\drawable-hdpi-v4\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tip_loading9.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable-hdpi\\tip_loading9.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_faxian_sosou.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable-hdpi\\ic_faxian_sosou.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_dongtai_pinglun.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable-hdpi\\ic_dongtai_pinglun.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tv.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable-hdpi\\tv.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\kongxian.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable-hdpi\\kongxian.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_xiangyou.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable-hdpi\\ic_xiangyou.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_search_api_mtrl_alpha.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_ic_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\kn.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable-hdpi\\kn.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_dark.9.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_list_selector_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ns.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable-hdpi\\ns.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_focused_holo.9.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_list_focused_holo.9.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\gs.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable-hdpi\\gs.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_moreoverflow_mtrl_alpha.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_ic_menu_moreoverflow_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tip_loading6.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable-hdpi\\tip_loading6.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tip_loading3.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable-hdpi\\tip_loading3.png"
+    },
+    {
+        "merged": "D:\\SVN_ForAS\\yunchengke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_faxian_fangchan.png",
+        "source": "D:\\SVN_ForAS\\yunchengke\\app\\src\\main\\res\\drawable-hdpi\\ic_faxian_fangchan.png"
+    }
+]

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include android:id="@+id/title" layout="@layout/layout_title_green"/>
+    <ListView
+        android:id="@+id/lv_comments"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/title"
+        android:layout_height="match_parent"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="98px"
+        android:layout_alignParentBottom="true"
+        >
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5px"
+            android:background="#b3b3b3"/>
+        <EditText
+            android:id="@+id/et_comments"
+            android:layout_width="560px"
+            android:layout_height="58px"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="30px"
+            android:background="@drawable/ic_dongtai_pinglun"
+            android:hint="发表评论..."
+            android:textSize="30px"
+            android:textColor="#999999"/>
+        <Button
+            android:layout_width="100px"
+            android:layout_height="58px"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="30px"
+            android:background="@color/create_activites_title"
+            android:text="发送"/>
+    </RelativeLayout>
+</RelativeLayout>

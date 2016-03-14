@@ -1,0 +1,91 @@
+<resources>
+
+    <!--侧滑-->
+    <dimen name="slidingmenu_offset">100dp</dimen>
+    <dimen name="shadow_width">15dp</dimen>
+    <!-- 标题栏 -->
+    <dimen name="title_height">45dp</dimen>
+    <dimen name="title_margin">50dp</dimen>
+    <dimen name="title_menu_textsize">16dp</dimen>
+    <dimen name="title_center_textsize">18dp</dimen>
+    <dimen name="title_menu_padding">10dp</dimen>
+
+    <!-- 界面分隔线条高度 -->
+    <dimen name="line_height">0.5dp</dimen>
+
+    <!-- segment radio button -->
+    <dimen name="radio_button_conner_radius">5dp</dimen>
+    <dimen name="radio_button_stroke_border">1dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+
+    <!-- ##########################标题########################## -->
+    <!-- 标题高度 -->
+    <dimen name="top_height">48dp</dimen>
+    <!-- 标题标签字号 -->
+    <dimen name="top_fontsize">20sp</dimen>
+    <dimen name="title_tab_size">18sp</dimen>
+    <dimen name="list_titlebar_height">48dp</dimen>
+
+    <!-- ##########################头########################## -->
+    <!-- 头高度 -->
+    <dimen name="head_height">120dp</dimen>
+    <dimen name="head_username_fontsize">18sp</dimen>
+    <dimen name="head_image_size">80dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="exit_min_width">300dp</dimen>
+    <dimen name="text_min_width">80dp</dimen>
+
+    <dimen name="indicator_right_padding">10dp</dimen>
+    <dimen name="indicator_corner_radius">12dp</dimen>
+    <dimen name="indicator_internal_padding">4dp</dimen>
+    <dimen name="header_footer_left_right_padding">72dp</dimen>
+    <dimen name="header_footer_top_bottom_padding">24dp</dimen>
+
+    <dimen name="popmenu_width">125.0dip</dimen>
+    <dimen name="popmenu_yoff">0.0dip</dimen>
+    <dimen name="dip2pix">1.0dip</dimen>
+
+    <dimen name="investlist_item_pad_center">10dp</dimen>
+
+    <!-- 头条 -->
+    <dimen name="newslist_divider_height">15dp</dimen>
+    <dimen name="medialist_divider_height">15dp</dimen>
+
+    <dimen name="half_split_line_height">0.5dp</dimen>
+    <dimen name="split_line_height">1dp</dimen>
+
+    <dimen name="portrait_height">40dp</dimen>
+
+    <dimen name="activity_margin_left">15dp</dimen>
+    <dimen name="activity_margin_right">15dp</dimen>
+    <dimen name="activity_margin_top">15dp</dimen>
+    <dimen name="activity_margin_bottom">15dp</dimen>
+
+    <dimen name="segment_button_height">30dp</dimen>
+
+    <dimen name="group_button_text_size">15dp</dimen>
+    <dimen name="group_button_height">50dp</dimen>
+
+    <dimen name="past_news_list_divider_height">15dp</dimen>
+    <!--机票-->
+    <dimen name="edittext_corner">5dp</dimen>
+    <dimen name="title_corner">5dp</dimen>
+
+
+    <dimen name="button_textSize">16sp</dimen>
+    <dimen name="layout_title">20sp</dimen>
+
+    <!-- 动态 -->
+    <dimen name="dynamic_list_divider_height">15dp</dimen>
+    <!-- popmenu -->
+    <dimen name="button_text_size">14sp</dimen>
+    <dimen name="head_bar_height">45dp</dimen>
+
+    <dimen name="expand_tab_item_height">45dp</dimen>
+    <dimen name="expand_tab_eara_height">380dp</dimen>
+    <dimen name="expand_tab_popview_padingtop">10dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+</resources>

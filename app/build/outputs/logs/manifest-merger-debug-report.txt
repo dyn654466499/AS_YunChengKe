@@ -1,0 +1,880 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:2:1-420:12
+	package
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:3:5-33
+		INJECTED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml
+		INJECTED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml
+		INJECTED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml
+		INJECTED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.GET_TASKS
+ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:5:5-68
+	android:name
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:5:22-65
+uses-permission#android.permission.INTERNET
+ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:6:5-67
+	android:name
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:6:22-64
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:7:5-76
+	android:name
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:7:22-73
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:8:5-79
+	android:name
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:8:22-76
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:9:5-76
+	android:name
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:9:22-73
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:10:5-81
+	android:name
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:10:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:11:5-80
+	android:name
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:11:22-77
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:12:5-75
+	android:name
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:12:22-72
+uses-permission#android.permission.MANAGE_ACCOUNTS
+ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:13:5-74
+	android:name
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:13:22-71
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:14:5-71
+	android:name
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:14:22-68
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:15:5-84
+	android:name
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:15:22-81
+uses-permission#android.permission.CALL_PHONE
+ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:16:5-69
+	android:name
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:16:22-66
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:17:5-79
+	android:name
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:17:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:18:5-81
+	android:name
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:18:22-78
+uses-permission#android.permission.ACCESS_GPS
+ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:19:5-69
+	android:name
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:19:22-66
+uses-permission#android.permission.ACCES_MOCK_LOCATION
+ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:20:5-78
+	android:name
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:20:22-75
+uses-permission#android.permission.ACCESS_DOWNLOAD_MANAGER
+ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:21:5-82
+	android:name
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:21:22-79
+uses-permission#android.permission.BAIDU_LOCATION_SERVICE
+ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:22:5-81
+	android:name
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:22:22-78
+uses-permission#android.permission.READ_LOGS
+ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:23:5-68
+	android:name
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:23:22-65
+application
+ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:25:5-418:19
+MERGED from [:volley:] D:\SVN_ForAS\yunchengke\app\build\intermediates\exploded-aar\volley\AndroidManifest.xml:11:5-14:19
+MERGED from [yunchengke:photo_select:unspecified] D:\SVN_ForAS\yunchengke\app\build\intermediates\exploded-aar\yunchengke\photo_select\unspecified\AndroidManifest.xml:11:5-15:19
+MERGED from [com.android.support:support-v4:23.1.1] D:\SVN_ForAS\yunchengke\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [yunchengke:pulltorefresh:unspecified] D:\SVN_ForAS\yunchengke\app\build\intermediates\exploded-aar\yunchengke\pulltorefresh\unspecified\AndroidManifest.xml:11:5-14:19
+MERGED from [yunchengke:onekeyshare:unspecified] D:\SVN_ForAS\yunchengke\app\build\intermediates\exploded-aar\yunchengke\onekeyshare\unspecified\AndroidManifest.xml:18:5-21:19
+MERGED from [com.android.support:appcompat-v7:23.1.1] D:\SVN_ForAS\yunchengke\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] D:\SVN_ForAS\yunchengke\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [yunchengke:sharesdk:unspecified] D:\SVN_ForAS\yunchengke\app\build\intermediates\exploded-aar\yunchengke\sharesdk\unspecified\AndroidManifest.xml:11:5-14:19
+MERGED from [com.android.support:appcompat-v7:23.1.1] D:\SVN_ForAS\yunchengke\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] D:\SVN_ForAS\yunchengke\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] D:\SVN_ForAS\yunchengke\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [yunchengke:upyun:unspecified] D:\SVN_ForAS\yunchengke\app\build\intermediates\exploded-aar\yunchengke\upyun\unspecified\AndroidManifest.xml:11:5-15:19
+MERGED from [com.android.support:appcompat-v7:23.1.1] D:\SVN_ForAS\yunchengke\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] D:\SVN_ForAS\yunchengke\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.1.1] D:\SVN_ForAS\yunchengke\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] D:\SVN_ForAS\yunchengke\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] D:\SVN_ForAS\yunchengke\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.andreabaccega:android-form-edittext:1.2.1] D:\SVN_ForAS\yunchengke\app\build\intermediates\exploded-aar\com.andreabaccega\android-form-edittext\1.2.1\AndroidManifest.xml:11:5-20
+MERGED from [com.android.support:design:22.2.0] D:\SVN_ForAS\yunchengke\app\build\intermediates\exploded-aar\com.android.support\design\22.2.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.1.1] D:\SVN_ForAS\yunchengke\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] D:\SVN_ForAS\yunchengke\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] D:\SVN_ForAS\yunchengke\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:30:9-41
+	android:supportsRtl
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:31:9-35
+	android:fullBackupContent
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:28:9-42
+	android:debuggable
+		ADDED from [yunchengke:onekeyshare:unspecified] D:\SVN_ForAS\yunchengke\app\build\intermediates\exploded-aar\yunchengke\onekeyshare\unspecified\AndroidManifest.xml:20:9-34
+	android:allowBackup
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:27:9-35
+	android:icon
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:29:9-44
+	android:theme
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:32:9-40
+	android:name
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:26:9-40
+meta-data#UMENG_APPKEY
+ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:35:9-37:56
+	android:value
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:37:13-53
+	android:name
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:36:13-40
+meta-data#UMENG_CHANNEL
+ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:38:9-40:40
+	android:value
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:40:13-37
+	android:name
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:39:13-41
+meta-data#com.yunchengke.app.http.GlideConfiguration
+ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:43:9-45:43
+	android:value
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:45:13-40
+	android:name
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:44:13-70
+meta-data#com.baidu.lbsapi.API_KEY
+ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:48:9-50:56
+	android:value
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:50:13-53
+	android:name
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:49:13-52
+service#com.baidu.location.f
+ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:52:9-59:19
+	android:enabled
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:54:13-35
+	android:process
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:55:13-38
+	android:name
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:53:13-48
+intent-filter#com.baidu.location.service_v2.2
+ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:56:13-58:29
+action#com.baidu.location.service_v2.2
+ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:57:17-74
+	android:name
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:57:25-71
+activity#com.yunchengke.app.MainActivity
+ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:61:9-63:48
+	android:label
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:63:13-45
+	android:name
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:62:13-41
+activity#com.yunchengke.app.ui.base.AbsBaseActivity
+ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:67:9-69:59
+	android:theme
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:69:13-56
+	android:name
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:68:13-52
+activity#com.mob.tools.MobUIShell
+ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:72:9-86:20
+	android:screenOrientation
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:75:13-49
+	android:windowSoftInputMode
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:77:13-67
+	android:configChanges
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:74:13-74
+	android:theme
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:76:13-72
+	android:name
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:73:13-52
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:78:13-85:29
+data
+ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:79:17-60
+	android:scheme
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:79:23-57
+action#android.intent.action.VIEW
+ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:81:17-69
+	android:name
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:81:25-66
+category#android.intent.category.BROWSABLE
+ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:83:17-78
+	android:name
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:83:27-75
+category#android.intent.category.DEFAULT
+ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:84:17-76
+	android:name
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:84:27-73
+activity#com.yunchengke.app.wxapi.WXEntryActivity
+ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:88:9-93:75
+	android:screenOrientation
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:92:13-49
+	android:exported
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:91:13-36
+	android:configChanges
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:90:13-74
+	android:theme
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:93:13-72
+	android:name
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:89:13-50
+activity#com.yunchengke.app.ui.activity.group.GroupActivity
+ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:94:9-98:59
+	android:screenOrientation
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:97:13-49
+	android:configChanges
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:96:13-74
+	android:theme
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:98:13-56
+	android:name
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:95:13-60
+activity#ui.SelectPicActivity
+ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:99:9-103:51
+	android:screenOrientation
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:102:13-49
+	android:configChanges
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:101:13-74
+	android:theme
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:103:13-48
+	android:name
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:100:13-48
+activity#com.yunchengke.app.ui.activity.group.GroupDetailActivity
+ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:104:9-108:55
+	android:screenOrientation
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:107:13-49
+	android:configChanges
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:106:13-74
+	android:theme
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:108:13-52
+	android:name
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:105:13-66
+activity#com.yunchengke.app.ui.activity.group.CreateTopicActivity
+ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:109:9-113:59
+	android:screenOrientation
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:112:13-49
+	android:configChanges
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:111:13-74
+	android:theme
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:113:13-56
+	android:name
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:110:13-66
+activity#com.yunchengke.app.ui.activity.group.GroupMemberActivity
+ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:114:9-118:55
+	android:screenOrientation
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:117:13-49
+	android:configChanges
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:116:13-74
+	android:theme
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:118:13-52
+	android:name
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:115:13-66
+activity#com.yunchengke.app.ui.activity.group.TopicDetailActivity
+ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:119:9-124:67
+	android:screenOrientation
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:122:13-49
+	android:windowSoftInputMode
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:124:13-64
+	android:configChanges
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:121:13-74
+	android:theme
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:123:13-56
+	android:name
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:120:13-66
+activity#com.yunchengke.app.ui.activity.group.CategoryDetailActivity
+ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:125:9-129:59
+	android:screenOrientation
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:128:13-49
+	android:configChanges
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:127:13-74
+	android:theme
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:129:13-56
+	android:name
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:126:13-69
+activity#com.yunchengke.app.ui.activity.group.SelectCategoryActivity
+ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:130:9-134:59
+	android:screenOrientation
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:133:13-49
+	android:configChanges
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:132:13-74
+	android:theme
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:134:13-56
+	android:name
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:131:13-69
+activity#com.yunchengke.app.ui.activity.group.CreateGroupActivity
+ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:135:9-139:59
+	android:screenOrientation
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:138:13-49
+	android:configChanges
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:137:13-74
+	android:theme
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:139:13-56
+	android:name
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:136:13-66
+activity#com.yunchengke.app.ui.activity.headline.HeadlineActivity
+ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:143:9-147:59
+	android:screenOrientation
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:146:13-49
+	android:configChanges
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:145:13-74
+	android:theme
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:147:13-56
+	android:name
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:144:13-66
+activity#com.yunchengke.app.ui.activity.headline.NewsDetailActivity
+ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:148:9-152:67
+	android:screenOrientation
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:150:13-49
+	android:windowSoftInputMode
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:152:13-64
+	android:theme
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:151:13-56
+	android:name
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:149:13-68
+activity#com.yunchengke.app.ui.activity.headline.MediaDetailActivity
+ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:153:9-157:59
+	android:screenOrientation
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:156:13-49
+	android:configChanges
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:155:13-74
+	android:theme
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:157:13-56
+	android:name
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:154:13-69
+activity#com.yunchengke.app.ui.activity.headline.MediaMemberActivity
+ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:158:9-162:59
+	android:screenOrientation
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:161:13-49
+	android:configChanges
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:160:13-74
+	android:theme
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:162:13-56
+	android:name
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:159:13-69
+activity#com.yunchengke.app.ui.activity.headline.InstantNewsActivity
+ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:163:9-167:59
+	android:screenOrientation
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:166:13-49
+	android:configChanges
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:165:13-74
+	android:theme
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:167:13-56
+	android:name
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:164:13-69
+activity#com.yunchengke.app.ui.activity.headline.PastNewsActivity
+ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:168:9-172:59
+	android:screenOrientation
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:171:13-49
+	android:configChanges
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:170:13-74
+	android:theme
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:172:13-56
+	android:name
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:169:13-66
+activity#com.yunchengke.app.ui.activity.login.ForgetPasswordActivity
+ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:176:9-179:59
+	android:screenOrientation
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:178:13-49
+	android:theme
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:179:13-56
+	android:name
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:177:13-69
+activity#com.yunchengke.app.ui.activity.login.LoginActivity
+ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:180:9-183:59
+	android:screenOrientation
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:182:13-49
+	android:theme
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:183:13-56
+	android:name
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:181:13-60
+activity#com.yunchengke.app.ui.activity.login.RegisterActivity
+ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:184:9-187:59
+	android:screenOrientation
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:186:13-49
+	android:theme
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:187:13-56
+	android:name
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:185:13-63
+activity#com.yunchengke.app.ui.activity.maintab.KeyBackStopActivity
+ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:188:9-190:52
+	android:screenOrientation
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:190:13-49
+	android:name
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:189:13-68
+activity#com.yunchengke.app.ui.activity.maintab.HomePageActivity
+ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:191:9-194:63
+	android:screenOrientation
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:193:13-49
+	android:theme
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:194:13-60
+	android:name
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:192:13-65
+activity#com.yunchengke.app.ui.activity.maintab.MainTabAct
+ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:195:9-68
+	android:name
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:195:19-65
+activity#com.yunchengke.app.ui.activity.maintab.MyAct
+ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:196:9-199:55
+	android:screenOrientation
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:198:13-49
+	android:theme
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:199:13-52
+	android:name
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:197:13-54
+activity#com.yunchengke.app.ui.activity.daemon.FlightSearchActivity
+ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:202:9-205:59
+	android:label
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:204:13-45
+	android:theme
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:205:13-56
+	android:name
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:203:13-68
+activity#com.yunchengke.app.ui.activity.daemon.CitySearchActivity
+ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:206:9-209:59
+	android:screenOrientation
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:208:13-49
+	android:theme
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:209:13-56
+	android:name
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:207:13-66
+activity#com.yunchengke.app.ui.activity.daemon.OrderTicketEditActivity
+ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:210:9-214:55
+	android:screenOrientation
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:212:13-49
+	android:windowSoftInputMode
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:214:13-52
+	android:theme
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:213:13-56
+	android:name
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:211:13-71
+activity#com.yunchengke.app.ui.activity.daemon.DatePickActivity
+ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:215:9-218:59
+	android:screenOrientation
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:217:13-49
+	android:theme
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:218:13-56
+	android:name
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:216:13-64
+activity#com.yunchengke.app.ui.activity.daemon.TypeSelectActivity
+ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:219:9-222:58
+	android:screenOrientation
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:221:13-49
+	android:theme
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:222:13-55
+	android:name
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:220:13-66
+activity#com.yunchengke.app.ui.activity.daemon.EndorseActivity
+ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:223:9-226:58
+	android:screenOrientation
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:225:13-49
+	android:theme
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:226:13-55
+	android:name
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:224:13-63
+activity#com.yunchengke.app.ui.activity.daemon.FlightResultActivity
+ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:227:9-230:59
+	android:screenOrientation
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:229:13-49
+	android:theme
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:230:13-56
+	android:name
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:228:13-68
+activity#com.yunchengke.app.ui.activity.daemon.MyConsumeActivity
+ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:231:9-234:59
+	android:screenOrientation
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:233:13-49
+	android:theme
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:234:13-56
+	android:name
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:232:13-65
+activity#com.yunchengke.app.ui.activity.daemon.OrderTicketDetailActivity
+ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:235:9-238:59
+	android:screenOrientation
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:237:13-49
+	android:theme
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:238:13-56
+	android:name
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:236:13-73
+activity#com.yunchengke.app.ui.activity.daemon.OrderReturnInfoActivity
+ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:239:9-242:58
+	android:screenOrientation
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:241:13-49
+	android:theme
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:242:13-55
+	android:name
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:240:13-71
+activity#com.yunchengke.app.ui.activity.daemon.EditPersonInfoActivity
+ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:243:9-246:59
+	android:screenOrientation
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:245:13-49
+	android:theme
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:246:13-56
+	android:name
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:244:13-70
+activity#com.yunchengke.app.ui.activity.daemon.ImageSelectActivity
+ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:247:9-250:58
+	android:screenOrientation
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:249:13-49
+	android:theme
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:250:13-55
+	android:name
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:248:13-67
+activity#com.yunchengke.app.ui.activity.daemon.OrderCateringDetailActivity
+ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:251:9-254:59
+	android:screenOrientation
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:253:13-49
+	android:theme
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:254:13-56
+	android:name
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:252:13-75
+activity#com.yunchengke.app.ui.activity.daemon.OrderLocalCityDetailActivity
+ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:255:9-258:59
+	android:screenOrientation
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:257:13-49
+	android:theme
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:258:13-56
+	android:name
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:256:13-76
+activity#com.yunchengke.app.pay.unionpay.UnionPayActivity
+ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:259:9-262:51
+	android:screenOrientation
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:261:13-49
+	android:theme
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:262:13-48
+	android:name
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:260:13-58
+activity#com.yunchengke.app.ui.activity.CommonWebView
+ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:263:9-266:59
+	android:screenOrientation
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:265:13-49
+	android:theme
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:266:13-56
+	android:name
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:264:13-54
+activity#com.yunchengke.app.ui.activity.dynamic.DynamicActivity
+ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:268:9-272:88
+	android:screenOrientation
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:270:13-49
+	android:windowSoftInputMode
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:272:13-85
+	android:theme
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:271:13-60
+	android:name
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:269:13-64
+activity#com.yunchengke.app.ui.activity.dynamic.DynamicDetailActivity
+ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:274:9-278:85
+	android:screenOrientation
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:276:13-49
+	android:windowSoftInputMode
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:278:13-82
+	android:theme
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:277:13-52
+	android:name
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:275:13-70
+activity#com.yunchengke.app.ui.activity.dynamic.PublishDynamicActivity
+ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:281:9-285:88
+	android:screenOrientation
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:283:13-49
+	android:windowSoftInputMode
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:285:13-85
+	android:theme
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:284:13-52
+	android:name
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:282:13-71
+activity#com.yunchengke.app.ui.activity.common.ZoomGalleryActivity
+ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:288:9-292:88
+	android:screenOrientation
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:290:13-49
+	android:windowSoftInputMode
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:292:13-85
+	android:theme
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:291:13-59
+	android:name
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:289:13-67
+activity#com.yunchengke.app.ui.activity.common.UserInfoActivity
+ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:295:9-299:88
+	android:screenOrientation
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:297:13-49
+	android:windowSoftInputMode
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:299:13-85
+	android:theme
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:298:13-52
+	android:name
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:296:13-64
+activity#com.yunchengke.app.ui.activity.dynamic.FansListActivity
+ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:300:9-304:88
+	android:screenOrientation
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:302:13-49
+	android:windowSoftInputMode
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:304:13-85
+	android:theme
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:303:13-52
+	android:name
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:301:13-65
+activity#com.yunchengke.app.ui.activity.dynamic.FollowListActivity
+ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:305:9-309:88
+	android:screenOrientation
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:307:13-49
+	android:windowSoftInputMode
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:309:13-85
+	android:theme
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:308:13-52
+	android:name
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:306:13-67
+activity#com.yunchengke.app.ui.activity.daemon.CateringSearchActivity
+ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:310:9-314:59
+	android:screenOrientation
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:313:13-49
+	android:label
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:312:13-60
+	android:theme
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:314:13-56
+	android:name
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:311:13-70
+activity#com.yunchengke.app.ui.activity.daemon.CateringDetailActivity
+ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:315:9-319:59
+	android:screenOrientation
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:318:13-49
+	android:label
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:317:13-67
+	android:theme
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:319:13-56
+	android:name
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:316:13-70
+activity#com.yunchengke.app.ui.activity.WelcomeActivity
+ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:320:9-322:62
+	android:theme
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:322:13-59
+	android:name
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:321:13-56
+activity#com.yunchengke.app.ui.activity.daemon.CateringDishesActivity
+ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:323:9-327:59
+	android:screenOrientation
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:326:13-49
+	android:label
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:325:13-67
+	android:theme
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:327:13-56
+	android:name
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:324:13-70
+activity#com.yunchengke.app.ui.activity.daemon.CateringBookActivity
+ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:328:9-332:59
+	android:screenOrientation
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:331:13-49
+	android:label
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:330:13-65
+	android:theme
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:332:13-56
+	android:name
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:329:13-68
+activity#com.yunchengke.app.ui.activity.daemon.CateringCommentActivity
+ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:333:9-337:73
+	android:screenOrientation
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:335:13-49
+	android:windowSoftInputMode
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:337:13-70
+	android:theme
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:336:13-56
+	android:name
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:334:13-71
+activity#com.yunchengke.app.ui.activity.daemon.CateringMerchantInfoActivity
+ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:338:9-341:59
+	android:screenOrientation
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:340:13-49
+	android:theme
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:341:13-56
+	android:name
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:339:13-76
+activity#com.yunchengke.app.ui.activity.daemon.CommentActivity
+ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:342:9-346:55
+	android:screenOrientation
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:344:13-49
+	android:windowSoftInputMode
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:346:13-52
+	android:theme
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:345:13-56
+	android:name
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:343:13-63
+activity#com.yunchengke.app.ui.activity.daemon.CateringBookResultActivity
+ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:347:9-351:55
+	android:screenOrientation
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:349:13-49
+	android:windowSoftInputMode
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:351:13-52
+	android:theme
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:350:13-56
+	android:name
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:348:13-74
+activity#com.yunchengke.app.ui.activity.daemon.MapActivity
+ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:352:9-356:59
+	android:screenOrientation
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:355:13-49
+	android:label
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:354:13-55
+	android:theme
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:356:13-56
+	android:name
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:353:13-59
+activity#com.yunchengke.app.ui.activity.city.SameCityAcitvity
+ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:359:9-363:88
+	android:screenOrientation
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:361:13-49
+	android:windowSoftInputMode
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:363:13-85
+	android:theme
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:362:13-48
+	android:name
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:360:13-62
+activity#com.yunchengke.app.ui.activity.city.ToPayActivity
+ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:364:9-368:88
+	android:screenOrientation
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:366:13-49
+	android:windowSoftInputMode
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:368:13-85
+	android:theme
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:367:13-56
+	android:name
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:365:13-59
+activity#com.yunchengke.app.ui.activity.city.CityDetailsActivity
+ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:369:9-373:59
+	android:screenOrientation
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:372:13-49
+	android:configChanges
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:371:13-74
+	android:theme
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:373:13-56
+	android:name
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:370:13-65
+activity#com.yunchengke.app.ui.activity.city.YCKCommentActivity
+ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:374:9-378:59
+	android:screenOrientation
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:377:13-49
+	android:configChanges
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:376:13-74
+	android:theme
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:378:13-56
+	android:name
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:375:13-64
+activity#com.yunchengke.app.ui.activity.daemon.CateringBookDishesLargeActivity
+ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:380:9-384:58
+	android:screenOrientation
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:383:13-49
+	android:label
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:382:13-77
+	android:theme
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:384:13-55
+	android:name
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:381:13-79
+activity#com.yunchengke.app.ui.activity.city.YCKJoinedActivity
+ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:385:9-389:59
+	android:screenOrientation
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:388:13-49
+	android:configChanges
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:387:13-74
+	android:theme
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:389:13-56
+	android:name
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:386:13-63
+activity#com.yunchengke.app.ui.activity.city.YCKPhotoActivity
+ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:390:9-394:59
+	android:screenOrientation
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:393:13-49
+	android:configChanges
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:392:13-74
+	android:theme
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:394:13-56
+	android:name
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:391:13-62
+activity#com.yunchengke.app.ui.activity.city.YCKAddCommentActivity
+ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:395:9-76
+	android:name
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:395:19-73
+activity#com.yunchengke.app.ui.activity.GuideActivity
+ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:396:9-404:20
+	android:theme
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:398:13-59
+	android:name
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:397:13-54
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:399:13-403:29
+action#android.intent.action.MAIN
+ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:400:17-69
+	android:name
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:400:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:402:17-77
+	android:name
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:402:27-74
+activity#com.yunchengke.app.ui.activity.daemon.ICBCPayUi
+ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:405:9-407:52
+	android:screenOrientation
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:407:13-49
+	android:name
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:406:13-57
+activity#com.yunchengke.app.ui.activity.city.AddCreateActivities
+ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:408:9-413:55
+	android:screenOrientation
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:411:13-49
+	android:windowSoftInputMode
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:413:13-52
+	android:configChanges
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:410:13-74
+	android:theme
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:412:13-56
+	android:name
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:409:13-65
+activity#com.yunchengke.app.ui.activity.maintab.MyInfoActivity
+ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:414:9-417:59
+	android:screenOrientation
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:416:13-49
+	android:configChanges
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:415:13-74
+	android:theme
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:417:13-56
+	android:name
+		ADDED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml:414:19-69
+uses-sdk
+INJECTED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [:volley:] D:\SVN_ForAS\yunchengke\app\build\intermediates\exploded-aar\volley\AndroidManifest.xml:7:5-9:41
+MERGED from [yunchengke:photo_select:unspecified] D:\SVN_ForAS\yunchengke\app\build\intermediates\exploded-aar\yunchengke\photo_select\unspecified\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-v4:23.1.1] D:\SVN_ForAS\yunchengke\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [yunchengke:pulltorefresh:unspecified] D:\SVN_ForAS\yunchengke\app\build\intermediates\exploded-aar\yunchengke\pulltorefresh\unspecified\AndroidManifest.xml:7:5-9:41
+MERGED from [yunchengke:onekeyshare:unspecified] D:\SVN_ForAS\yunchengke\app\build\intermediates\exploded-aar\yunchengke\onekeyshare\unspecified\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:23.1.1] D:\SVN_ForAS\yunchengke\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] D:\SVN_ForAS\yunchengke\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [yunchengke:sharesdk:unspecified] D:\SVN_ForAS\yunchengke\app\build\intermediates\exploded-aar\yunchengke\sharesdk\unspecified\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:23.1.1] D:\SVN_ForAS\yunchengke\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] D:\SVN_ForAS\yunchengke\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [yunchengke:slidingmenu:unspecified] D:\SVN_ForAS\yunchengke\app\build\intermediates\exploded-aar\yunchengke\slidingmenu\unspecified\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-v4:23.1.1] D:\SVN_ForAS\yunchengke\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [yunchengke:upyun:unspecified] D:\SVN_ForAS\yunchengke\app\build\intermediates\exploded-aar\yunchengke\upyun\unspecified\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:23.1.1] D:\SVN_ForAS\yunchengke\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] D:\SVN_ForAS\yunchengke\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.1.1] D:\SVN_ForAS\yunchengke\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] D:\SVN_ForAS\yunchengke\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] D:\SVN_ForAS\yunchengke\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.andreabaccega:android-form-edittext:1.2.1] D:\SVN_ForAS\yunchengke\app\build\intermediates\exploded-aar\com.andreabaccega\android-form-edittext\1.2.1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:22.2.0] D:\SVN_ForAS\yunchengke\app\build\intermediates\exploded-aar\com.android.support\design\22.2.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.1.1] D:\SVN_ForAS\yunchengke\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] D:\SVN_ForAS\yunchengke\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] D:\SVN_ForAS\yunchengke\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+	android:targetSdkVersion
+		INJECTED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml
+		INJECTED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml
+		INJECTED from D:\SVN_ForAS\yunchengke\app\src\main\AndroidManifest.xml
+supports-screens
+ADDED from [yunchengke:onekeyshare:unspecified] D:\SVN_ForAS\yunchengke\app\build\intermediates\exploded-aar\yunchengke\onekeyshare\unspecified\AndroidManifest.xml:11:5-16:39
+	android:largeScreens
+		ADDED from [yunchengke:onekeyshare:unspecified] D:\SVN_ForAS\yunchengke\app\build\intermediates\exploded-aar\yunchengke\onekeyshare\unspecified\AndroidManifest.xml:13:9-36
+	android:smallScreens
+		ADDED from [yunchengke:onekeyshare:unspecified] D:\SVN_ForAS\yunchengke\app\build\intermediates\exploded-aar\yunchengke\onekeyshare\unspecified\AndroidManifest.xml:16:9-36
+	android:normalScreens
+		ADDED from [yunchengke:onekeyshare:unspecified] D:\SVN_ForAS\yunchengke\app\build\intermediates\exploded-aar\yunchengke\onekeyshare\unspecified\AndroidManifest.xml:14:9-37
+	android:resizeable
+		ADDED from [yunchengke:onekeyshare:unspecified] D:\SVN_ForAS\yunchengke\app\build\intermediates\exploded-aar\yunchengke\onekeyshare\unspecified\AndroidManifest.xml:15:9-34
+	android:anyDensity
+		ADDED from [yunchengke:onekeyshare:unspecified] D:\SVN_ForAS\yunchengke\app\build\intermediates\exploded-aar\yunchengke\onekeyshare\unspecified\AndroidManifest.xml:12:9-34

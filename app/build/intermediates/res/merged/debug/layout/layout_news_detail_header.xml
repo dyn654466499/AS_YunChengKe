@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/lyt_news_detail_header"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_news_detail_title"
+                android:textSize="20dp"
+                android:textColor="@color/common_black_color"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <ImageView
+                android:id="@+id/iv_news_detail_image"
+                android:contentDescription="@null"
+                android:scaleType="fitXY"
+                android:layout_marginTop="10dp"
+                android:minHeight="200dp"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/tv_news_detail_content"
+                android:textSize="15dp"
+                android:textColor="@color/common_black_color"
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <WebView
+                android:id="@+id/webview"
+                android:textColor="@color/common_black_color"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/tv_news_detail_interval"
+                android:textSize="12dp"
+                android:textColor="@color/common_gray_color"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/tv_news_detail_creator"
+                android:textSize="12dp"
+                android:textColor="@color/common_black_color"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/tv_news_detail_create_time"
+                android:textSize="12dp"
+                android:textColor="@color/common_gray_color"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <include
+            layout="@layout/common_split_line"/>
+
+    </LinearLayout>
+
+
+    <!-- 评论列表 -->
+
+    <LinearLayout
+        android:id="@+id/lyt_news_detail_comment"
+        android:visibility="gone"
+        android:orientation="vertical"
+        android:layout_marginTop="15dp"
+        android:layout_below="@id/lyt_news_detail_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <include
+            layout="@layout/common_split_line"/>
+
+        <TextView
+            android:id="@+id/tv_news_detail_comment_count"
+            android:paddingLeft="15dp"
+            android:background="@color/white"
+            android:gravity="center_vertical|left"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"/>
+
+        <include
+            layout="@layout/common_split_line"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

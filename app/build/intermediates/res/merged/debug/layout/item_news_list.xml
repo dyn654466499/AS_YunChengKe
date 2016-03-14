@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/iv_item_newslist_image"
+        android:contentDescription="@null"
+        android:scaleType="fitXY"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:paddingLeft="@dimen/activity_margin_left"
+        android:paddingRight="@dimen/activity_margin_right"
+        android:paddingBottom="12dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_item_newslist_content"
+            android:textSize="17dp"
+            android:paddingTop="16dp"
+            android:paddingBottom="13dp"
+            android:textColor="@color/common_black_color"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <!-- 创建、时间、评论人数 -->
+        <RelativeLayout
+            android:id="@+id/lyt_item_newslist_extra"
+            android:layout_below="@id/tv_item_newslist_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <!-- 创建小组 -->
+
+            <TextView
+                android:id="@+id/tv_item_newslist_group"
+                android:textSize="13dp"
+                android:textColor="@color/common_gray_color"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <!-- 创建时间 -->
+
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/tv_item_newslist_datetime"
+                android:textSize="13dp"
+                android:textColor="@color/common_gray_color"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <!-- 参与人数 -->
+
+            <TextView
+                android:id="@+id/tv_item_newslist_count"
+                android:layout_alignParentRight="true"
+                android:textSize="13dp"
+                android:textColor="@color/common_gray_color"
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

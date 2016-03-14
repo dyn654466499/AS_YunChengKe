@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:background="@drawable/bg_common_item"
+    android:layout_width="match_parent"
+                android:layout_height="97dp" >
+
+    <com.yunchengke.app.ui.view.daemon.CircleImageView
+        android:id="@+id/iv_item_topic_image"
+        app:border_color="@color/transparent"
+        app:border_width="1dp"
+        android:layout_marginLeft="15dp"
+        android:layout_centerVertical="true"
+        android:contentDescription="@null"
+        android:layout_width="58dp"
+        android:layout_height="58dp"/>
+
+    <RelativeLayout
+        android:paddingTop="16dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingBottom="14dp"
+        android:layout_toRightOf="@id/iv_item_topic_image"
+        android:layout_width="match_parent"
+        android:layout_height="97dp">
+
+        <TextView
+            android:id="@+id/tv_item_topic_title"
+            android:text="标题表头"
+            android:textSize="15dp"
+            android:textColor="@color/list_title_color"
+            android:layout_alignParentTop="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <RelativeLayout
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="小组小组"
+                android:id="@+id/tv_item_topic_name"
+                android:layout_alignParentLeft="true"
+                android:textColor="@color/list_gray_color"
+                android:textSize="14dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="参与参与"
+                android:id="@+id/tv_item_topic_comment_count"
+                android:textColor="@color/list_gray_color"
+                android:textSize="14dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignBaseline="@id/tv_item_topic_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <!-- 时间 -->
+            <TextView
+                android:id="@+id/tv_item_topic_time"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@id/tv_item_topic_name"
+                android:layout_toLeftOf="@id/tv_item_topic_comment_count"
+                android:textColor="@color/list_gray_color"
+                android:textSize="14dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>
+

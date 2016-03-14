@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_bg"
+    android:orientation="vertical" >
+    <include 
+        layout="@layout/common_title"
+        />
+	<EditText 
+	    android:id="@+id/dynamic_msg"
+	    android:layout_width="fill_parent"
+	    android:layout_weight="1"
+	    android:paddingLeft="5dp"
+	    android:paddingTop="5dp"
+	    android:gravity="top"
+	    android:layout_height="0dp"
+	    android:maxLength="300"
+	    android:hint="限输入150字以内...."
+	    android:background="@null"
+	    />
+	 <com.yunchengke.app.dynamic.view.MyGridView
+        android:id="@+id/add_grid"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:columnWidth="100dip"
+        android:gravity="center"
+        android:horizontalSpacing="5dp"
+        android:listSelector="@color/transparent"
+        android:numColumns="auto_fit"
+        android:stretchMode="none"
+        android:verticalSpacing="5dp" >
+    </com.yunchengke.app.dynamic.view.MyGridView>
+</LinearLayout>

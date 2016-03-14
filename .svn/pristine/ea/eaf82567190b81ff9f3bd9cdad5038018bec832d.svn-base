@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/title_btn_selector"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="全部"
+        android:textSize="@dimen/text_size_toolarge" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:background="@color/grayg" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/title_btn_selector"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="投资理财"
+        android:textSize="@dimen/text_size_toolarge" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:background="@color/grayg" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/title_btn_selector"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="债权转让"
+        android:textSize="@dimen/text_size_toolarge" />
+
+</LinearLayout>

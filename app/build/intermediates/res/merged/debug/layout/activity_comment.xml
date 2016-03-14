@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.yunchengke.app.ui.activity.daemon.CommentActivity">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_status_height"
+        android:background="@color/catering_title_color"/>
+    <include layout="@layout/layout_title_orange"/>
+
+    <com.yunchengke.app.ui.view.daemon.CustomEditText
+        android:id="@+id/et_comment_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="15dp"
+        android:hint="请输入评论内容"
+        android:textColor="@color/ticket_black"
+        android:textSize="15sp"
+        android:background="@null"
+        android:gravity="start"
+        />
+
+</LinearLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Segment -->
+    <com.yunchengke.app.ui.widget.SegmentedGroup
+        android:orientation="horizontal"
+        android:id="@+id/sgp_group_top"
+        android:gravity="center"
+        app:sc_unchecked_tint_color="@color/headline_background"
+        android:background="@color/headline_background"
+        android:layout_width="match_parent"
+        android:layout_height="45dp">
+
+        <RadioButton
+            android:id="@+id/news"
+            style="@style/SegmentRadioButton"
+            android:background="@drawable/radio_checked"
+            android:checked="true"
+            android:textColor="@drawable/headline_segment_button_text_color"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/segment_button_height"
+            android:text="新闻" />
+
+        <RadioButton
+            android:id="@+id/media"
+            style="@style/SegmentRadioButton"
+            android:textColor="@drawable/headline_segment_button_text_color"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/segment_button_height"
+            android:text="媒体" />
+
+        <RadioButton
+            android:id="@+id/myself"
+            style="@style/SegmentRadioButton"
+            android:textColor="@drawable/headline_segment_button_text_color"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/segment_button_height"
+            android:text="我的" />
+
+    </com.yunchengke.app.ui.widget.SegmentedGroup>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vpg_headline_content"
+        android:layout_below="@id/sgp_group_top"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</RelativeLayout>

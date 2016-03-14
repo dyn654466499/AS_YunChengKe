@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:background="@color/white"
+              android:paddingLeft="@dimen/activity_margin_left"
+              android:paddingRight="@dimen/activity_margin_right"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="69dp">
+    
+    <com.yunchengke.app.ui.view.daemon.CircleImageView
+        android:id="@+id/iv_item_group_member_portrait"
+        app:border_color="@color/transparent"
+        app:border_width="1dp"
+        android:contentDescription="@null"
+        android:layout_gravity="center_vertical|left"
+        android:layout_width="34dp"
+        android:layout_height="34dp"/>
+
+
+    <TextView
+        android:id="@+id/iv_item_group_member_name"
+        android:layout_marginLeft="10dp"
+        android:layout_gravity="center_vertical|left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

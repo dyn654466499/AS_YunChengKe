@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.yunchengke.app.ui.widget.ExpandPopTabView
+        android:id="@+id/expandtab_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <!-- TODO: Update blank fragment layout -->
+    <com.lee.pullrefresh.PullToRefreshListView
+        android:id="@+id/lv_city_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:dividerHeight="15dp"
+        android:divider="@color/ticket_bg_gray"
+        android:footerDividersEnabled="false"
+        android:headerDividersEnabled="false"
+        />
+</LinearLayout>

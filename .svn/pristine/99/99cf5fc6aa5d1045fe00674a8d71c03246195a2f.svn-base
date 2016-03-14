@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/transparent"
+    tools:context="com.yunchengke.app.ui.activity.city.YCKAddCommentActivity">
+    <EditText
+        android:id="@+id/edt_publish_comment_content"
+        android:textSize="15dp"
+        android:textColor="@color/common_black_color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/activity_margin_left"
+        android:paddingRight="@dimen/activity_margin_right"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:gravity="left|top"
+        android:minHeight="150dp"
+        android:hint="评论内容"
+        android:background="@color/white" />
+</LinearLayout>
